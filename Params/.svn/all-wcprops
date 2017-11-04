@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/repos/ClearPET_Recons/!svn/ver/14/trunk/Params
+END
+lm_to_projdata.par
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/4/trunk/Params/lm_to_projdata.par
+END
+norm_fov7_Small.hv
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/norm_fov7_Small.hv
+END
+norm_fov9_Small.hv
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/norm_fov9_Small.hv
+END
+Coincidences.cch
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ClearPET_Recons/!svn/ver/4/trunk/Params/Coincidences.cch
+END
+osem.par
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ClearPET_Recons/!svn/ver/4/trunk/Params/osem.par
+END
+norm_fov7_Large.v
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/14/trunk/Params/norm_fov7_Large.v
+END
+seg_31.hs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ClearPET_Recons/!svn/ver/4/trunk/Params/seg_31.hs
+END
+norm_fov9_Large.v
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/14/trunk/Params/norm_fov9_Large.v
+END
+deadtimecorr_fov7_Large.par
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/deadtimecorr_fov7_Large.par
+END
+deadtimecorr_fov9_Large.par
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/deadtimecorr_fov9_Large.par
+END
+norm_fov7_Large.hv
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/14/trunk/Params/norm_fov7_Large.hv
+END
+norm_fov9_Large.hv
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/14/trunk/Params/norm_fov9_Large.hv
+END
+bcktest.in
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ClearPET_Recons/!svn/ver/9/trunk/Params/bcktest.in
+END
+norm_fov7_Small.v
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/norm_fov7_Small.v
+END
+lmf_header.db
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ClearPET_Recons/!svn/ver/4/trunk/Params/lmf_header.db
+END
+norm_fov9_Small.v
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/norm_fov9_Small.v
+END
+deadtimecorr_fov7_Small.par
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/deadtimecorr_fov7_Small.par
+END
+matrix_trans_fov9
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/4/trunk/Params/matrix_trans_fov9
+END
+deadtimecorr_fov9_Small.par
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/13/trunk/Params/deadtimecorr_fov9_Small.par
+END

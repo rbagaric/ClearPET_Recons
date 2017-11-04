@@ -1,0 +1,354 @@
+opt/utilities/poisson_noise.o: utilities/poisson_noise.cxx \
+ include/stir/ProjDataInterfile.h include/stir/ProjDataFromStream.h \
+ include/stir/ProjData.h include/stir/shared_ptr.h include/stir/common.h \
+ include/boost/config.hpp include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/stir/shared_ptr.inl include/stir/ProjDataInfo.h \
+ include/stir/VectorWithOffset.h include/stir/VectorWithOffset.inl \
+ include/stir/Scanner.h include/stir/DetectionPosition.h \
+ include/stir/DetectionPosition.inl include/stir/Scanner.inl \
+ include/stir/ProjDataInfo.inl include/stir/ProjData.inl \
+ include/stir/NumericType.h include/stir/NumericType.inl \
+ include/stir/ByteOrder.h include/stir/ByteOrder.inl \
+ include/stir/ProjDataFromStream.inl include/stir/SegmentByView.h \
+ include/stir/Segment.h include/stir/Segment.inl include/stir/Sinogram.h \
+ include/stir/Array.h include/stir/NumericVectorWithOffset.h \
+ include/stir/NumericVectorWithOffset.inl include/stir/IndexRange.h \
+ include/stir/BasicCoordinate.h include/boost/operators.hpp \
+ include/boost/iterator.hpp include/boost/detail/workaround.hpp \
+ include/stir/BasicCoordinate.inl include/stir/detail/test_if_1d.h \
+ include/stir/IndexRange.inl include/stir/FullArrayIterator.h \
+ include/stir/FullArrayIterator.inl include/stir/Array.inl \
+ include/stir/Sinogram.inl include/stir/IndexRange2D.h \
+ include/stir/IndexRange2D.inl include/stir/Coordinate2D.h \
+ include/stir/Coordinate2D.inl include/stir/Viewgram.h \
+ include/stir/Viewgram.inl include/stir/SegmentByView.inl \
+ include/stir/Succeeded.h include/boost/random/uniform_01.hpp \
+ include/boost/limits.hpp include/boost/static_assert.hpp \
+ include/boost/random/detail/config.hpp \
+ include/boost/random/detail/pass_through_engine.hpp \
+ include/boost/random/detail/ptr_helper.hpp \
+ include/boost/random/detail/disable_warnings.hpp \
+ include/boost/random/detail/enable_warnings.hpp \
+ include/boost/random/normal_distribution.hpp \
+ include/boost/config/no_tr1/cmath.hpp \
+ include/boost/random/mersenne_twister.hpp \
+ include/boost/integer_traits.hpp include/boost/cstdint.hpp \
+ include/boost/random/linear_congruential.hpp \
+ include/boost/random/detail/const_mod.hpp \
+ include/boost/random/detail/seed.hpp include/boost/utility/enable_if.hpp \
+ include/boost/type_traits/is_arithmetic.hpp \
+ include/boost/type_traits/is_integral.hpp \
+ include/boost/type_traits/detail/bool_trait_def.hpp \
+ include/boost/type_traits/detail/template_arity_spec.hpp \
+ include/boost/mpl/int.hpp include/boost/mpl/int_fwd.hpp \
+ include/boost/mpl/aux_/adl_barrier.hpp \
+ include/boost/mpl/aux_/config/adl.hpp \
+ include/boost/mpl/aux_/config/msvc.hpp \
+ include/boost/mpl/aux_/config/intel.hpp \
+ include/boost/mpl/aux_/config/gcc.hpp \
+ include/boost/mpl/aux_/config/workaround.hpp \
+ include/boost/mpl/aux_/nttp_decl.hpp \
+ include/boost/mpl/aux_/config/nttp.hpp \
+ include/boost/mpl/aux_/integral_wrapper.hpp \
+ include/boost/mpl/integral_c_tag.hpp \
+ include/boost/mpl/aux_/config/static_constant.hpp \
+ include/boost/mpl/aux_/static_cast.hpp \
+ include/boost/preprocessor/cat.hpp \
+ include/boost/preprocessor/config/config.hpp \
+ include/boost/mpl/aux_/template_arity_fwd.hpp \
+ include/boost/mpl/aux_/preprocessor/params.hpp \
+ include/boost/mpl/aux_/config/preprocessor.hpp \
+ include/boost/preprocessor/comma_if.hpp \
+ include/boost/preprocessor/punctuation/comma_if.hpp \
+ include/boost/preprocessor/control/if.hpp \
+ include/boost/preprocessor/control/iif.hpp \
+ include/boost/preprocessor/logical/bool.hpp \
+ include/boost/preprocessor/facilities/empty.hpp \
+ include/boost/preprocessor/punctuation/comma.hpp \
+ include/boost/preprocessor/repeat.hpp \
+ include/boost/preprocessor/repetition/repeat.hpp \
+ include/boost/preprocessor/debug/error.hpp \
+ include/boost/preprocessor/detail/auto_rec.hpp \
+ include/boost/preprocessor/tuple/eat.hpp \
+ include/boost/preprocessor/inc.hpp \
+ include/boost/preprocessor/arithmetic/inc.hpp \
+ include/boost/mpl/aux_/config/lambda.hpp \
+ include/boost/mpl/aux_/config/ttp.hpp \
+ include/boost/mpl/aux_/config/ctps.hpp \
+ include/boost/mpl/aux_/config/overload_resolution.hpp \
+ include/boost/type_traits/integral_constant.hpp \
+ include/boost/mpl/bool.hpp include/boost/mpl/bool_fwd.hpp \
+ include/boost/mpl/integral_c.hpp include/boost/mpl/integral_c_fwd.hpp \
+ include/boost/mpl/aux_/lambda_support.hpp \
+ include/boost/type_traits/detail/bool_trait_undef.hpp \
+ include/boost/type_traits/is_float.hpp \
+ include/boost/type_traits/detail/ice_or.hpp \
+ include/boost/random/variate_generator.hpp \
+ include/boost/random/detail/uniform_int_float.hpp include/stir/round.h \
+ include/stir/round.inl
+
+include/stir/ProjDataInterfile.h:
+
+include/stir/ProjDataFromStream.h:
+
+include/stir/ProjData.h:
+
+include/stir/shared_ptr.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/stir/shared_ptr.inl:
+
+include/stir/ProjDataInfo.h:
+
+include/stir/VectorWithOffset.h:
+
+include/stir/VectorWithOffset.inl:
+
+include/stir/Scanner.h:
+
+include/stir/DetectionPosition.h:
+
+include/stir/DetectionPosition.inl:
+
+include/stir/Scanner.inl:
+
+include/stir/ProjDataInfo.inl:
+
+include/stir/ProjData.inl:
+
+include/stir/NumericType.h:
+
+include/stir/NumericType.inl:
+
+include/stir/ByteOrder.h:
+
+include/stir/ByteOrder.inl:
+
+include/stir/ProjDataFromStream.inl:
+
+include/stir/SegmentByView.h:
+
+include/stir/Segment.h:
+
+include/stir/Segment.inl:
+
+include/stir/Sinogram.h:
+
+include/stir/Array.h:
+
+include/stir/NumericVectorWithOffset.h:
+
+include/stir/NumericVectorWithOffset.inl:
+
+include/stir/IndexRange.h:
+
+include/stir/BasicCoordinate.h:
+
+include/boost/operators.hpp:
+
+include/boost/iterator.hpp:
+
+include/boost/detail/workaround.hpp:
+
+include/stir/BasicCoordinate.inl:
+
+include/stir/detail/test_if_1d.h:
+
+include/stir/IndexRange.inl:
+
+include/stir/FullArrayIterator.h:
+
+include/stir/FullArrayIterator.inl:
+
+include/stir/Array.inl:
+
+include/stir/Sinogram.inl:
+
+include/stir/IndexRange2D.h:
+
+include/stir/IndexRange2D.inl:
+
+include/stir/Coordinate2D.h:
+
+include/stir/Coordinate2D.inl:
+
+include/stir/Viewgram.h:
+
+include/stir/Viewgram.inl:
+
+include/stir/SegmentByView.inl:
+
+include/stir/Succeeded.h:
+
+include/boost/random/uniform_01.hpp:
+
+include/boost/limits.hpp:
+
+include/boost/static_assert.hpp:
+
+include/boost/random/detail/config.hpp:
+
+include/boost/random/detail/pass_through_engine.hpp:
+
+include/boost/random/detail/ptr_helper.hpp:
+
+include/boost/random/detail/disable_warnings.hpp:
+
+include/boost/random/detail/enable_warnings.hpp:
+
+include/boost/random/normal_distribution.hpp:
+
+include/boost/config/no_tr1/cmath.hpp:
+
+include/boost/random/mersenne_twister.hpp:
+
+include/boost/integer_traits.hpp:
+
+include/boost/cstdint.hpp:
+
+include/boost/random/linear_congruential.hpp:
+
+include/boost/random/detail/const_mod.hpp:
+
+include/boost/random/detail/seed.hpp:
+
+include/boost/utility/enable_if.hpp:
+
+include/boost/type_traits/is_arithmetic.hpp:
+
+include/boost/type_traits/is_integral.hpp:
+
+include/boost/type_traits/detail/bool_trait_def.hpp:
+
+include/boost/type_traits/detail/template_arity_spec.hpp:
+
+include/boost/mpl/int.hpp:
+
+include/boost/mpl/int_fwd.hpp:
+
+include/boost/mpl/aux_/adl_barrier.hpp:
+
+include/boost/mpl/aux_/config/adl.hpp:
+
+include/boost/mpl/aux_/config/msvc.hpp:
+
+include/boost/mpl/aux_/config/intel.hpp:
+
+include/boost/mpl/aux_/config/gcc.hpp:
+
+include/boost/mpl/aux_/config/workaround.hpp:
+
+include/boost/mpl/aux_/nttp_decl.hpp:
+
+include/boost/mpl/aux_/config/nttp.hpp:
+
+include/boost/mpl/aux_/integral_wrapper.hpp:
+
+include/boost/mpl/integral_c_tag.hpp:
+
+include/boost/mpl/aux_/config/static_constant.hpp:
+
+include/boost/mpl/aux_/static_cast.hpp:
+
+include/boost/preprocessor/cat.hpp:
+
+include/boost/preprocessor/config/config.hpp:
+
+include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+include/boost/mpl/aux_/preprocessor/params.hpp:
+
+include/boost/mpl/aux_/config/preprocessor.hpp:
+
+include/boost/preprocessor/comma_if.hpp:
+
+include/boost/preprocessor/punctuation/comma_if.hpp:
+
+include/boost/preprocessor/control/if.hpp:
+
+include/boost/preprocessor/control/iif.hpp:
+
+include/boost/preprocessor/logical/bool.hpp:
+
+include/boost/preprocessor/facilities/empty.hpp:
+
+include/boost/preprocessor/punctuation/comma.hpp:
+
+include/boost/preprocessor/repeat.hpp:
+
+include/boost/preprocessor/repetition/repeat.hpp:
+
+include/boost/preprocessor/debug/error.hpp:
+
+include/boost/preprocessor/detail/auto_rec.hpp:
+
+include/boost/preprocessor/tuple/eat.hpp:
+
+include/boost/preprocessor/inc.hpp:
+
+include/boost/preprocessor/arithmetic/inc.hpp:
+
+include/boost/mpl/aux_/config/lambda.hpp:
+
+include/boost/mpl/aux_/config/ttp.hpp:
+
+include/boost/mpl/aux_/config/ctps.hpp:
+
+include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+include/boost/type_traits/integral_constant.hpp:
+
+include/boost/mpl/bool.hpp:
+
+include/boost/mpl/bool_fwd.hpp:
+
+include/boost/mpl/integral_c.hpp:
+
+include/boost/mpl/integral_c_fwd.hpp:
+
+include/boost/mpl/aux_/lambda_support.hpp:
+
+include/boost/type_traits/detail/bool_trait_undef.hpp:
+
+include/boost/type_traits/is_float.hpp:
+
+include/boost/type_traits/detail/ice_or.hpp:
+
+include/boost/random/variate_generator.hpp:
+
+include/boost/random/detail/uniform_int_float.hpp:
+
+include/stir/round.h:
+
+include/stir/round.inl:

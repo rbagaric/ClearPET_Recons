@@ -1,0 +1,241 @@
+opt/listmode_buildblock/LMF_ClearPET.o: \
+ listmode_buildblock/LMF_ClearPET.cxx \
+ include/stir/listmode/LMF_ClearPET.h \
+ include/stir/CartesianCoordinate3D.h include/stir/Coordinate3D.h \
+ include/stir/BasicCoordinate.h include/stir/common.h \
+ include/boost/config.hpp include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/boost/operators.hpp include/boost/iterator.hpp \
+ include/boost/detail/workaround.hpp include/stir/BasicCoordinate.inl \
+ include/stir/detail/test_if_1d.h include/stir/Coordinate3D.inl \
+ include/stir/CartesianCoordinate3D.inl \
+ include/stir/listmode/LMF_Interfile.h include/stir/IO/interfile.h \
+ include/stir/NumericType.h include/stir/NumericType.inl \
+ include/stir/Succeeded.h include/stir/utilities.h \
+ include/stir/utilities.inl include/stir/Scanner.h \
+ include/stir/DetectionPosition.h include/stir/DetectionPosition.inl \
+ include/stir/Scanner.inl include/stir/ProjDataFromStream.h \
+ include/stir/ProjData.h include/stir/shared_ptr.h \
+ include/stir/shared_ptr.inl include/stir/ProjDataInfo.h \
+ include/stir/VectorWithOffset.h include/stir/VectorWithOffset.inl \
+ include/stir/ProjDataInfo.inl include/stir/ProjData.inl \
+ include/stir/ByteOrder.h include/stir/ByteOrder.inl \
+ include/stir/ProjDataFromStream.inl \
+ include/stir/ProjDataInfoCylindricalArcCorr.h \
+ include/stir/ProjDataInfoCylindrical.h \
+ include/stir/ProjDataInfoCylindrical.inl include/stir/Bin.h \
+ include/stir/Bin.inl include/stir/is_null_ptr.h \
+ include/stir/ProjDataInfoCylindricalArcCorr.inl \
+ ../lmf_v2.0/includes/lmf.h ../lmf_v2.0/includes/lmf_format.h \
+ ../lmf_v2.0/includes/structure_LMF.h \
+ ../lmf_v2.0/includes/constantsLMF_ccs.h \
+ ../lmf_v2.0/includes/constantsLMF_cch.h \
+ ../lmf_v2.0/includes/constantsLocateEvents.h \
+ ../lmf_v2.0/includes/dlist.h ../lmf_v2.0/includes/lmf.h \
+ ../lmf_v2.0/includes/prototypesLMF_cch.h \
+ ../lmf_v2.0/includes/prototypesLMF_ccs.h \
+ ../lmf_v2.0/includes/prototypesLocateEvents.h include/stir/Array.h \
+ include/stir/NumericVectorWithOffset.h \
+ include/stir/NumericVectorWithOffset.inl include/stir/IndexRange.h \
+ include/stir/IndexRange.inl include/stir/FullArrayIterator.h \
+ include/stir/FullArrayIterator.inl include/stir/Array.inl \
+ include/stir/IndexRange3D.h include/stir/IndexRange3D.inl \
+ include/stir/listmode/CListModeData.h include/stir/ParsingObject.h \
+ include/stir/KeyParser.h include/stir/TimeFrameDefinitions.h \
+ include/stir/IO/write_data.h include/stir/IO/write_data.inl \
+ include/stir/convert_array.h include/stir/NumericInfo.h \
+ include/stir/IO/write_data_1d.h include/stir/IO/write_data_1d.inl \
+ include/stir/recon_buildblock/BinNormalisation.h \
+ include/stir/RegisteredObject.h include/stir/Object.h \
+ include/stir/FactoryRegistry.h include/stir/FactoryRegistry.inl \
+ include/stir/interfile_keyword_functions.h \
+ include/stir/RegisteredObject.inl
+
+include/stir/listmode/LMF_ClearPET.h:
+
+include/stir/CartesianCoordinate3D.h:
+
+include/stir/Coordinate3D.h:
+
+include/stir/BasicCoordinate.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/boost/operators.hpp:
+
+include/boost/iterator.hpp:
+
+include/boost/detail/workaround.hpp:
+
+include/stir/BasicCoordinate.inl:
+
+include/stir/detail/test_if_1d.h:
+
+include/stir/Coordinate3D.inl:
+
+include/stir/CartesianCoordinate3D.inl:
+
+include/stir/listmode/LMF_Interfile.h:
+
+include/stir/IO/interfile.h:
+
+include/stir/NumericType.h:
+
+include/stir/NumericType.inl:
+
+include/stir/Succeeded.h:
+
+include/stir/utilities.h:
+
+include/stir/utilities.inl:
+
+include/stir/Scanner.h:
+
+include/stir/DetectionPosition.h:
+
+include/stir/DetectionPosition.inl:
+
+include/stir/Scanner.inl:
+
+include/stir/ProjDataFromStream.h:
+
+include/stir/ProjData.h:
+
+include/stir/shared_ptr.h:
+
+include/stir/shared_ptr.inl:
+
+include/stir/ProjDataInfo.h:
+
+include/stir/VectorWithOffset.h:
+
+include/stir/VectorWithOffset.inl:
+
+include/stir/ProjDataInfo.inl:
+
+include/stir/ProjData.inl:
+
+include/stir/ByteOrder.h:
+
+include/stir/ByteOrder.inl:
+
+include/stir/ProjDataFromStream.inl:
+
+include/stir/ProjDataInfoCylindricalArcCorr.h:
+
+include/stir/ProjDataInfoCylindrical.h:
+
+include/stir/ProjDataInfoCylindrical.inl:
+
+include/stir/Bin.h:
+
+include/stir/Bin.inl:
+
+include/stir/is_null_ptr.h:
+
+include/stir/ProjDataInfoCylindricalArcCorr.inl:
+
+../lmf_v2.0/includes/lmf.h:
+
+../lmf_v2.0/includes/lmf_format.h:
+
+../lmf_v2.0/includes/structure_LMF.h:
+
+../lmf_v2.0/includes/constantsLMF_ccs.h:
+
+../lmf_v2.0/includes/constantsLMF_cch.h:
+
+../lmf_v2.0/includes/constantsLocateEvents.h:
+
+../lmf_v2.0/includes/dlist.h:
+
+../lmf_v2.0/includes/lmf.h:
+
+../lmf_v2.0/includes/prototypesLMF_cch.h:
+
+../lmf_v2.0/includes/prototypesLMF_ccs.h:
+
+../lmf_v2.0/includes/prototypesLocateEvents.h:
+
+include/stir/Array.h:
+
+include/stir/NumericVectorWithOffset.h:
+
+include/stir/NumericVectorWithOffset.inl:
+
+include/stir/IndexRange.h:
+
+include/stir/IndexRange.inl:
+
+include/stir/FullArrayIterator.h:
+
+include/stir/FullArrayIterator.inl:
+
+include/stir/Array.inl:
+
+include/stir/IndexRange3D.h:
+
+include/stir/IndexRange3D.inl:
+
+include/stir/listmode/CListModeData.h:
+
+include/stir/ParsingObject.h:
+
+include/stir/KeyParser.h:
+
+include/stir/TimeFrameDefinitions.h:
+
+include/stir/IO/write_data.h:
+
+include/stir/IO/write_data.inl:
+
+include/stir/convert_array.h:
+
+include/stir/NumericInfo.h:
+
+include/stir/IO/write_data_1d.h:
+
+include/stir/IO/write_data_1d.inl:
+
+include/stir/recon_buildblock/BinNormalisation.h:
+
+include/stir/RegisteredObject.h:
+
+include/stir/Object.h:
+
+include/stir/FactoryRegistry.h:
+
+include/stir/FactoryRegistry.inl:
+
+include/stir/interfile_keyword_functions.h:
+
+include/stir/RegisteredObject.inl:

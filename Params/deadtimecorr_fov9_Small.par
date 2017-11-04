@@ -1,0 +1,13 @@
+deadtimecorr parameters:=
+input file := sino_E_corrR.hs
+DAQ duration in seconds := 300
+output filename prefix := sino_E_corrRDT.hs
+intrinsic true rate := 300
+P1 := 0
+P2 := 0
+P3 := 0
+P4 := 0
+P5 := 0
+P6 := 0
+P7 := 0
+end:=

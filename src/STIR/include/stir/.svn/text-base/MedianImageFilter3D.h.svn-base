@@ -1,0 +1,80 @@
+//
+// $Id: MedianImageFilter3D.h,v 1.5 2003/05/27 10:54:55 kris Exp $
+//
+/*!
+
+  \file
+  \ingroup ImageProcessor
+  \brief Declaration of class MedianImageFilter3D.h
+
+  \author Sanida Mustafovic
+  \author Kris Thielemans
+  
+  $Date: 2003/05/27 10:54:55 $
+  $Revision: 1.5 $
+*/
+/*
+    Copyright (C) 2000- $Date: 2003/05/27 10:54:55 $, IRSL
+    See STIR/LICENSE.txt for details
+*/
+
+#ifndef __stir_MedianImageFilter3D_H__
+#define __stir_MedianImageFilter3D_H__
+
+
+#include "stir/ImageProcessor.h"
+#include "stir/MedianArrayFilter3D.h"
+
+#include "stir/RegisteredParsingObject.h"
+
+START_NAMESPACE_STIR
+
+template <typename coordT> class CartesianCoordinate3D;
+
+
+
+/*!
+  \ingroup ImageProcessor
+  \brief A class in the ImageProcessor hierarchy that implements median 
+  filtering.
+  
+  As it is derived from RegisteredParsingObject, it implements all the 
+  necessary things to parse parameter files etc.
+ */
+template <typename elemT>
+class MedianImageFilter3D:
+  public 
+      RegisteredParsingObject<
+	      MedianImageFilter3D<elemT>,
+              ImageProcessor<3,elemT>,
+              ImageProcessor<3,elemT>
+	       >
+
+{
+public:
+  static const char * const registered_name; 
+
+  MedianImageFilter3D();
+
+  MedianImageFilter3D(const CartesianCoordinate3D<int>& mask_radius);  
+ 
+private:
+  MedianArrayFilter3D<elemT> median_filter;
+  int mask_radius_x;
+  int mask_radius_y;
+  int mask_radius_z;
+
+
+  virtual void set_defaults();
+  virtual void initialise_keymap();
+
+  Succeeded virtual_set_up (const DiscretisedDensity< 3,elemT>& density);
+  void virtual_apply(DiscretisedDensity<3,elemT>& density, const DiscretisedDensity<3,elemT>& in_density) const; 
+  void virtual_apply(DiscretisedDensity<3,elemT>& density) const; 
+};
+
+
+END_NAMESPACE_STIR
+
+
+#endif  // MedianImageFilter3D

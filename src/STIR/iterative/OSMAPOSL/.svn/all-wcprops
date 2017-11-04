@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/OSMAPOSL
+END
+OSMAPOSLReconstruction.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/OSMAPOSL/OSMAPOSLReconstruction.cxx
+END
+exe.mk
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/OSMAPOSL/exe.mk
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/OSMAPOSL/lib.mk
+END
+OSMAPOSL.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/OSMAPOSL/OSMAPOSL.cxx
+END

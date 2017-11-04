@@ -1,0 +1,90 @@
+opt/buildblock/convert_array.o: buildblock/convert_array.cxx \
+ include/stir/convert_array.h include/stir/common.h \
+ include/boost/config.hpp include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/stir/NumericInfo.h include/stir/NumericType.h \
+ include/stir/NumericType.inl include/stir/Array.h \
+ include/stir/NumericVectorWithOffset.h include/stir/VectorWithOffset.h \
+ include/stir/VectorWithOffset.inl \
+ include/stir/NumericVectorWithOffset.inl include/stir/ByteOrder.h \
+ include/stir/ByteOrder.inl include/stir/IndexRange.h \
+ include/stir/BasicCoordinate.h include/boost/operators.hpp \
+ include/boost/iterator.hpp include/boost/detail/workaround.hpp \
+ include/stir/BasicCoordinate.inl include/stir/detail/test_if_1d.h \
+ include/stir/IndexRange.inl include/stir/FullArrayIterator.h \
+ include/stir/FullArrayIterator.inl include/stir/Array.inl
+
+include/stir/convert_array.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/stir/NumericInfo.h:
+
+include/stir/NumericType.h:
+
+include/stir/NumericType.inl:
+
+include/stir/Array.h:
+
+include/stir/NumericVectorWithOffset.h:
+
+include/stir/VectorWithOffset.h:
+
+include/stir/VectorWithOffset.inl:
+
+include/stir/NumericVectorWithOffset.inl:
+
+include/stir/ByteOrder.h:
+
+include/stir/ByteOrder.inl:
+
+include/stir/IndexRange.h:
+
+include/stir/BasicCoordinate.h:
+
+include/boost/operators.hpp:
+
+include/boost/iterator.hpp:
+
+include/boost/detail/workaround.hpp:
+
+include/stir/BasicCoordinate.inl:
+
+include/stir/detail/test_if_1d.h:
+
+include/stir/IndexRange.inl:
+
+include/stir/FullArrayIterator.h:
+
+include/stir/FullArrayIterator.inl:
+
+include/stir/Array.inl:

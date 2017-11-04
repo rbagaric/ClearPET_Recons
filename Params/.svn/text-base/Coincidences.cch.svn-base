@@ -1,0 +1,28 @@
+geometrical design type: 1
+ring diameter: 13.56 cm
+rsector axial pitch: 0 cm
+rsector azimuthal pitch: 18 degree
+rsector tangential size: 1.91 cm
+rsector axial size: 11.11 cm
+module axial size: 1.91 cm
+module tangential size: 1.91 cm
+module axial pitch: 2.76 cm
+module tangential pitch: 0 cm
+submodule axial size: 1.91 cm
+submodule tangential size: 1.91 cm
+submodule axial pitch: 0.0 mm
+submodule tangential pitch: 0 cm
+crystal axial size: 0.2 cm
+crystal tangential size: 0.2 cm
+crystal radial size: 2.0 cm
+crystal axial pitch: 0.23 cm
+crystal tangential pitch: 0.23 cm
+layer0 radial size: 1.0 cm
+in layer0 interaction length: 5 mm
+layer1 radial size: 1.0 cm
+in layer1 interaction length: 5 mm
+clock time step: 390 ps
+azimuthal step: -0.1 degree
+z shift sector 0 mod 2: 9.2 mm
+axial step: 0 cm
+scan file name: Coincidences

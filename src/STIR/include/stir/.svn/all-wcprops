@@ -1,0 +1,989 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ClearPET_Recons/!svn/ver/23/trunk/src/STIR/include/stir
+END
+is_null_ptr.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/is_null_ptr.h
+END
+DiscretisedDensityOnCartesianGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DiscretisedDensityOnCartesianGrid.h
+END
+RelatedViewgrams.inl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/RelatedViewgrams.inl
+END
+ProjDataGEAdvance.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataGEAdvance.h
+END
+display.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/display.h
+END
+make_array.inl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/make_array.inl
+END
+ProjDataInfoCylindricalNoArcCorr.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfoCylindricalNoArcCorr.h
+END
+RegisteredParsingObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/RegisteredParsingObject.h
+END
+VoxelsOnCartesianGrid.inl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/VoxelsOnCartesianGrid.inl
+END
+Coordinate3D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Coordinate3D.inl
+END
+Array.inl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Array.inl
+END
+ByteOrderDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ByteOrderDefine.h
+END
+Densel.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Densel.h
+END
+IndexRange2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange2D.h
+END
+ProjDataInfo.inl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfo.inl
+END
+DetectionPositionPair.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DetectionPositionPair.h
+END
+doxygenmain.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/doxygenmain.h
+END
+CPUTimer.inl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/CPUTimer.inl
+END
+ViewSegmentNumbers.inl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ViewSegmentNumbers.inl
+END
+more_algorithms.inl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/more_algorithms.inl
+END
+round.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/round.h
+END
+SegmentBySinogram.inl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SegmentBySinogram.inl
+END
+ByteOrder.inl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ByteOrder.inl
+END
+recon_array_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/recon_array_functions.h
+END
+DiscretisedDensity.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DiscretisedDensity.h
+END
+DetectionPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DetectionPosition.h
+END
+RelatedViewgrams.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/RelatedViewgrams.h
+END
+IndexRange2D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange2D.inl
+END
+KeyParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/KeyParser.h
+END
+Object.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Object.h
+END
+utilities.inl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/utilities.inl
+END
+SSRB.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SSRB.h
+END
+ProjDataInfoCylindricalArcCorr.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfoCylindricalArcCorr.h
+END
+ArrayFunctionObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFunctionObject.h
+END
+FullArrayIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/FullArrayIterator.h
+END
+VoxelsOnCartesianGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/VoxelsOnCartesianGrid.h
+END
+interfile_keyword_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/interfile_keyword_functions.h
+END
+NumericInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/NumericInfo.h
+END
+min_positive_element.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/min_positive_element.h
+END
+ArrayFunction.inl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFunction.inl
+END
+IndexRange.inl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange.inl
+END
+SegmentByView.inl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SegmentByView.inl
+END
+TimedObject.inl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/TimedObject.inl
+END
+RegisteredObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/RegisteredObject.h
+END
+stream.inl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/stream.inl
+END
+index_at_maximum.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/index_at_maximum.h
+END
+ViewSegmentNumbers.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ViewSegmentNumbers.h
+END
+PatientPosition.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/PatientPosition.h
+END
+FactoryRegistry.inl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/FactoryRegistry.inl
+END
+SegmentBySinogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SegmentBySinogram.h
+END
+DiscretisedDensity.inl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DiscretisedDensity.inl
+END
+ProjDataFromStream.inl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataFromStream.inl
+END
+ProjDataInfoCylindricalArcCorr.inl
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfoCylindricalArcCorr.inl
+END
+SeparableConvolutionImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SeparableConvolutionImageFilter.h
+END
+Bin.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Bin.h
+END
+ArrayFilter1DUsingConvolutionSymmetricKernel.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFilter1DUsingConvolutionSymmetricKernel.h
+END
+doxygengroups.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/doxygengroups.h
+END
+Coordinate4D.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Coordinate4D.h
+END
+ArrayFilter1DUsingConvolution.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFilter1DUsingConvolution.h
+END
+lm_eval.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/lm_eval.h
+END
+BasicCoordinate.inl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/BasicCoordinate.inl
+END
+interpolate.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/interpolate.h
+END
+array_index_functions.inl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/array_index_functions.inl
+END
+TimedObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/TimedObject.h
+END
+MedianArrayFilter3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/MedianArrayFilter3D.h
+END
+DiscretisedDensityOnCartesianGrid.inl
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DiscretisedDensityOnCartesianGrid.inl
+END
+thresholding.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/thresholding.h
+END
+ProjData.inl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjData.inl
+END
+ProjDataInfoCylindricalNoArcCorr.inl
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfoCylindricalNoArcCorr.inl
+END
+TimeFrameDefinitions.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/TimeFrameDefinitions.h
+END
+IndexRange4D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange4D.inl
+END
+Coordinate2D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Coordinate2D.inl
+END
+scatterfit.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/scatterfit.h
+END
+DetectionPositionPair.inl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DetectionPositionPair.inl
+END
+linear_regression.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/linear_regression.h
+END
+Timer.inl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Timer.inl
+END
+IndexRange3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange3D.h
+END
+DataSymmetriesForViewSegmentNumbers.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DataSymmetriesForViewSegmentNumbers.h
+END
+Sinogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Sinogram.h
+END
+ProjDataInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfo.h
+END
+round.inl
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/round.inl
+END
+NumericVectorWithOffset.inl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/NumericVectorWithOffset.inl
+END
+Scanner.inl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Scanner.inl
+END
+LORCoordinates.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/LORCoordinates.h
+END
+line.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/line.h
+END
+CPUTimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/CPUTimer.h
+END
+common.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/common.h
+END
+BasicCoordinate.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/BasicCoordinate.h
+END
+SeparableArrayFunctionObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SeparableArrayFunctionObject.h
+END
+shared_ptr.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/shared_ptr.h
+END
+array_index_functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/array_index_functions.h
+END
+DetectionPosition.inl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/DetectionPosition.inl
+END
+NumericType.inl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/NumericType.inl
+END
+VectorWithOffset.inl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/VectorWithOffset.inl
+END
+Array_complex_numbers.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Array_complex_numbers.h
+END
+SeparableMetzArrayFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SeparableMetzArrayFilter.h
+END
+CartesianCoordinate3D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/CartesianCoordinate3D.inl
+END
+ArrayFunctionObject_1ArgumentImplementation.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFunctionObject_1ArgumentImplementation.h
+END
+ArrayFunctionObject_2ArgumentImplementation.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFunctionObject_2ArgumentImplementation.h
+END
+linear_regression.inl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/linear_regression.inl
+END
+FullArrayIterator.inl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/FullArrayIterator.inl
+END
+TrivialDataSymmetriesForViewSegmentNumbers.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/TrivialDataSymmetriesForViewSegmentNumbers.h
+END
+CartesianCoordinate2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/CartesianCoordinate2D.h
+END
+Coordinate2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Coordinate2D.h
+END
+ArrayFilterUsingRealDFTWithPadding.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFilterUsingRealDFTWithPadding.h
+END
+Succeeded.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Succeeded.h
+END
+ArrayFunction.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArrayFunction.h
+END
+IndexRange.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange.h
+END
+SegmentByView.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SegmentByView.h
+END
+Scanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Scanner.h
+END
+ChainedImageProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ChainedImageProcessor.h
+END
+FactoryRegistry.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/FactoryRegistry.h
+END
+SeparableCartesianMetzImageFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/SeparableCartesianMetzImageFilter.h
+END
+Segment.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Segment.h
+END
+RegisteredParsingObject.inl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/RegisteredParsingObject.inl
+END
+Array1d.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Array1d.h
+END
+ProjDataFromStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataFromStream.h
+END
+VectorWithOffset.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/VectorWithOffset.h
+END
+Coordinate4D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Coordinate4D.inl
+END
+make_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/make_array.h
+END
+ThresholdMinToSmallPositiveValueImageProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ThresholdMinToSmallPositiveValueImageProcessor.h
+END
+ImageProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ImageProcessor.h
+END
+zoom.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/zoom.h
+END
+cross_product.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/cross_product.h
+END
+ParsingObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ParsingObject.h
+END
+more_algorithms.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/more_algorithms.h
+END
+PixelsOnCartesianGrid.inl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/PixelsOnCartesianGrid.inl
+END
+Segment.inl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Segment.inl
+END
+ProjDataInfoCylindrical.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfoCylindrical.h
+END
+ByteOrder.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ByteOrder.h
+END
+modulo.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/modulo.h
+END
+ProjData.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjData.h
+END
+IndexRange3D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange3D.inl
+END
+Sinogram.inl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Sinogram.inl
+END
+utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/utilities.h
+END
+Viewgram.inl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Viewgram.inl
+END
+IndexRange4D.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/IndexRange4D.h
+END
+ImageProcessor.inl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ImageProcessor.inl
+END
+doxygen_doc_for_boost.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/doxygen_doc_for_boost.h
+END
+RegisteredObject.inl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/RegisteredObject.inl
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Timer.h
+END
+LORCoordinates.inl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/LORCoordinates.inl
+END
+ProjDataInMemory.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInMemory.h
+END
+shared_ptr.inl
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/shared_ptr.inl
+END
+NumericVectorWithOffset.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/NumericVectorWithOffset.h
+END
+ProjDataInfoCylindrical.inl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInfoCylindrical.inl
+END
+stream.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/stream.h
+END
+ArcCorrection.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ArcCorrection.h
+END
+MedianImageFilter3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/MedianImageFilter3D.h
+END
+display.inl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/display.inl
+END
+PixelsOnCartesianGrid.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/PixelsOnCartesianGrid.h
+END
+TrivialDataSymmetriesForViewSegmentNumbers.inl
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/TrivialDataSymmetriesForViewSegmentNumbers.inl
+END
+CartesianCoordinate2D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/CartesianCoordinate2D.inl
+END
+Bin.inl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Bin.inl
+END
+NumericType.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/NumericType.h
+END
+ProjDataInterfile.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/ProjDataInterfile.h
+END
+CartesianCoordinate3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/CartesianCoordinate3D.h
+END
+centre_of_gravity.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/centre_of_gravity.h
+END
+lmmin.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/lmmin.h
+END
+Coordinate3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Coordinate3D.h
+END
+Array.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Array.h
+END
+convert_array.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/convert_array.h
+END
+Viewgram.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Viewgram.h
+END
+RunTests.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/RunTests.h
+END

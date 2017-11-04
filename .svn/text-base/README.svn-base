@@ -1,0 +1,354 @@
+Installation of the ClearPET reconstruction software
+----------------------------------------------------
+This folder contains the sources for the ClearPET reconstruction software.
+The software is based on the STIR library, extended by some ClearPET specific
+programs and a user interface based on HTML.
+
+Unless otherwise noted, the instructions in this file expect that you
+are logged in as root users, and that the current working directory
+is set to the folder where this readme file is located.
+
+WARNING: the installation of this software is a complex process.
+It should only be made by system administrators.
+We recommend that you read this document completely before installation,
+then follow the steps in this file.
+
+
+1. Requirements:
+----------------
+The software requires a Linux system. Remember that the reconstruction
+requires a lot of calculations, so better use a fast machine.
+
+The following packages must be installed prior to the installation of the
+ClearPET reconstruction software:
+- apache2
+- apache2-mod_perl
+- perl (at least version 5.6)
+- boost-devel
+On SuSE-Linux systems, the following package is also recommended:
+- yast2-http-server
+All these packages should be part of your Linux distribution.
+
+
+2. Basic configuration
+----------------------
+Most parts of the ClearPET reconstruction use a central configuration
+file. This must must be named /etc/clearpet.conf.
+ A basic version of this file is located in the etc folder of this archive.
+Just copy it to /etc and edit it to the needs of your local configuration.
+The comments in the file should be helping you. Especially check the
+sections marked with "TODO".
+
+Be sure that this file is readable by everybody, but only writeable by
+the root user. The parameters in this file are critical for the correct
+operation of the reconstruction software.
+  
+All this can be done using the commands:
+  cp etc/clearpet.conf /etc
+  chown root.users /etc/clearpet.conf
+  chmod 644 /etc/clearpet.conf
+
+2.1 Local or remote data folders
+--------------------------------
+One problem with the ClearPET system is that the measured data
+are first stored on up to 6 different machines: a master and up to 5
+preprocessors. All these data are needed during reconstruction.
+There are two ways to handle this:
+- copy the files manually to the reconstruction server
+- load them via network during reconstruction
+
+ The first approach requires manual interaction on 6 machines, and
+a lot of disk space on the reconstruction server. However, the
+reconstruction runs faster after the data have been copied, and
+the basic setup is quite simple.
+ The second approach requires some complicated setup, but then it
+works without user interaction. The reconstruction process is
+slowed by the network transport, but it is faster in overall as
+long as the data are not needed more than once.
+
+You must specify the location of data in the clearpet.conf file 
+with the parameter "DataFrom". Set it to "SinglesFromLocal"
+for local folders, or to "SinglesFromPrepros" for remote
+folders.
+
+2.1.1 Setup for local folders
+-----------------------------
+In order to use a local data folder, you must provide a folder
+on a large partition where users can copy the measured data to.
+In addition, this folder needs write access by the clearpet user.
+Usually, this folder would be a Samba share on the local machine,
+which requires that a Samba server is installed.
+
+In the clearpet.conf file, you must specify the name of this
+folder in the "DataRoot" parameter.
+
+2.1.2 Setup for remote folders
+--------------------- --------
+In order to use remote folders, the other PCs (Master and
+preprocessors must export their data folders as network shares.
+You also need a local user on those machines who is allowed to
+modify the data folders.
+ On the Linux machines, those shares are mounted using the CIFS
+file system. To mount them, you need the host names, the names
+of the shares and the mount points in the local file system. We
+want to mount those shares temporarily as clearpet user.
+Therefore, the mount points (just empty directories) must be
+owned by the clearpet user.
+In addition, you need an entry in the /etc/fstab file for each
+of the shares. Such an entry looks like:
+  //HOST/SHARE MOUNTPOINT cifs user,noauto,rw,suid,user=USER,password=PASSWORD,uid=clearpet,gid=users
+You need to replace HOST, SHARE, MOUNTPOINT, USER and PASSWORD
+by the host name of the remote PC, the name of the share, the
+local mount points, the remote user and password, respectively.
+
+In order to tell the reconstruction programs where the data are
+located, you need to enter the share names and mountpoints in
+the /etc/clearpet.conf file. Look into that file at the comments
+near the parameter "ShareMaster".
+
+
+3. The clearpet user
+--------------------
+The ClearPET reconstruction system expects to have a user called
+"clearpet" on the system, who has a home directory containing all
+the requried programs and documents which are not part of the HTTP
+interface.
+ Typically, the clearpet user never needs to be logged in. However,
+a login might be required in case of problems.
+
+3.1 Create the clearpet user
+----------------------------
+ You create this user with the command
+   useradd -m clearpet
+ This should also create a folder /home/clearpet. Be sure to set
+a password for the clearpet user, using the command
+  passwd clearpet
+
+3.2 Create the clearpet folder structure
+----------------------------------------
+The basic configuration expects some folders where files are saved.
+These folders usually are located in the clearpet home directory.
+
+Now, switch to the clearpet user and create the folders using the
+commands:
+  su clearpet
+  cd /home/clearpet
+  mkdir bin
+  mkdir Status
+  mkdir Master MasterWWW
+  mkdir Prepro1 Prepro2 Prepro3 Prepro4 Prepro5
+The last 7 folders (Master, MasterWWW, PrePro1 .. Prepro5) are only
+needed if you will be loading your raw data files directly from the
+preprocessors. They are the mount places for the CIFS shares
+exported by the preprocessors.
+
+The system also needs some parameter files. Those can be found in the
+folder Params in archive. Copy them with the command
+  cp -R ARCHIVE/Params .
+where "ARCHIVE" must be replaced by the name of the folder where this
+readme file is located.
+
+The "Status" folder must be accessible by the web server, same as
+the folder MasterWWW if it has been created. To do that, switch back
+to root and change the group access by:
+  exit
+  chgrp www Status MasterWWW
+  chmod 775 Status MasterWWW
+Note: if the chgrp command produdes an error message, then check the
+group name of the Apache server in the Apache configuration.
+
+
+4. Setup of the HTTP server:
+----------------------------
+After installation of the apache2 package, the server should have a basic
+configuration which works. Most probably, the server must be started directly
+after installation, usually by root using the command
+	rcapache2 start
+Using the system configuration (e.g. yast), the server should be configured
+to be started automatically when booting the system. Be sure that the
+server is listening on port 80 of your LAN interface(s).
+
+Do not try to use the HTTP interface until all configurations are made.
+You will just get some errors until everything is put together correctly.
+
+4.1 Copying the HTML files and scripts
+--------------------------------------
+The user interface of the ClearPET reconstruction is made of some HTML
+documents and some Perl scripts which are used by them. These documents
+can be found in the HTPP folder of the archive.
+ Copy all files in the HTPP folder to the htdocs folder of your apache2
+server (usually /srv/www/htdocs). Then change ownership of these files
+to the www user and group. Use these commands:
+  cp HTTP/* /srv/www/htdocs
+  chown wwwrun.www /srv/www/htdocs/*
+Note: the user and group names for the web server might be different on
+your system. If the line above produces an error message like "invalid user",
+then check your Apache configuration files for the correct naems.
+
+Note: If you are using an exisiting Apache installation, the lines above
+might conflict with existing files (especially index.html). In such a
+case is it recommended to install the ClearPET files into a subfolder,
+like:
+  mkdir /srv/www/htdocs/ClearPET
+  cp HTTP/* /srv/www/htdocs/ClearPET
+  chown -R wwwrun.www /srv/wa login/htdocs/ClearPET
+
+4.2 Configuring the ClearPET HTML interface
+-------------------------------------------
+The HTML documents need some configuration to work correctly. A basic
+configuration can be found in the folder HTTP_conf of the archive.
+Copy the file clearpet_http.conf to the folder /etc/apache2/conf.d
+and edit the file to your needs using your favorite text editor.
+
+You might need to change the follwing entries:
+- The directory name "/srv/www/htdocs" needs to be changed to the
+ location where you installed the ClearPET HTML documents.
+- You might want to change the access control to limit the access
+ to your local subnet or to some hosts. The default allows access
+ from everywhere.
+- You might want to remove (better: comment with # character) the
+ lines "AuthType Basic" until "require valid-user", if you do not
+ want to have a password protection on the interface.
+
+After saving this file, the HTTP server needs to be reloaded using
+the command
+  rcapache2 reload
+
+4.3 Changing the password of the clearpet user
+----------------------------------------------
+The basic setup protects the access to the reconstruction interface
+with a password. The preconfigured access is user "clearpet" with
+password "clearpet". You should change this password using the command
+  htpasswd2 /home/clearpet/http_passwd clearpet
+Of course, you can also add new users here. Just type "htpasswd2"
+to get a help on this program.
+ Note that the clearpet user password of the HTTP interface is not 
+the same as the password of the clearpet user described in chapter 3.
+ The ClearPET HTTP configuration expected the password file to be
+located at /home/clearpet/http_passwd. If you prefer a different
+location, don't forget to adjust the HTTP configuration.
+ The password file should be accessible by user clearpet and the
+HTTP server, but nobody else. To do that, use the commands:
+  chown clearpet.www http_passwd
+  chmod 640 http_passwd
+
+4.4 Test the interface
+----------------------
+You can now make a first test of the interface. Start a HTTP browser
+on this machine and type "http://localhost". It should first prompt
+with a password dialog. After typing the user name "clearpet" and
+the password it should display the ClearPET reconstruction home page.
+You can select other pages using the links in the menu, but please
+do not submit any forms yet. The cannot work until the installation
+is complete.
+
+
+5. Install the scripts
+----------------------
+The reconstructuion process is controlled by some Perl scripts, which
+call the binary programs which do the bulk of the work. Theses
+scripts are expected to be located in /home/clearpet/scripts. You copy
+them with the command
+  sudo -u clearpet cp -r scripts /home/clearpet
+In addition, we need a version of kill which allows the www user
+to terminate reconstruction processes. We install this using the
+commands:
+  cp /bin/kill /home/clearpet/bin
+  chown clearpet.users /home/clearpet/bin/kill
+  chmod +s /home/clearpet/bin/kill
+
+6. Install the binaries
+-----------------------
+Compiling the binaries takes some time. It is required because
+raytest cannot know the type of system you have.
+
+6.1 Compile the binaries
+------------------------
+Goto the "src" folder of the archive. There are 3 packages to be
+compiled: CoincSort, LMF 2.0, and STIR. We compile them in this
+order:
+  cd src
+  cd CoinSort
+  make
+  cd ../lmf_v2.0
+  ./configure
+  make
+  cd ../STIR
+  make
+  cd ..
+During the compilations, especially of the STIR package, you will
+get lots of warnings. You can ignore them.
+
+If all the compilations have compeleted successfully (you can check
+that by calling make again), you need to install the binaries.
+
+6.2 Install the binaries
+------------------------
+Finally, the binaries need to be installed into the bin folder of
+the clearpet user. To do that, we switch to the clearpet user
+and run the "make install" commands:
+  su clearpet
+  cd CoincSort
+  make install
+  cd ../STIR
+  make install
+  exit
+
+
+7. Install the scheduler
+------------------------
+The HTTP interface requires a scheduler to be running in background.
+This scheduler watches the Status folder and checks any incoming parameter
+files in this folder, which are written by the scripts of the HTTP
+interface. Then it starts the scripts required by that parameter file.
+
+The scheduler allows several reconstructions to be executed one after the
+other. It makes sure that there is never more that one reconstruction
+executed by the HTTP interface (you might start a reconstruction manually,
+but raytest does not recommend that).
+
+The scheduler itself is a script located in /home/clearpet/scripts. In order
+to close security holes, it must be owned by root and not accessible to
+other users:
+  chown root.root /home/clearpet/scripts/recons_scheduler.pl
+  chmod 700 /home/clearpet/scripts/recons_scheduler.pl
+
+The scheduler should be started when the system boots up. To do that,
+a script must be installed from the boot folder inthe archive into the
+/etc/init.d folder, and it must be registered in the system:
+ cp boot/clearpet_scheduler /etc/init.d
+ insserv clearpet_scheduler
+
+After installation, you should start the scheduler manually with
+  /etc/init.d/clearpet_scheduler start
+
+You can check its status with
+  /etc/init.d/clearpet_scheduler status
+or stop it with
+  /etc/init.d/clearpet_scheduler stop
+
+Note: If the configuration file needs to be changed after the scheduler
+has been started, you can force it to reload its configuration with
+  /etc/init.d/clearpet_scheduler reload
+
+8. Image result folder
+----------------------
+The software will put the resulting images into a fixed folder.
+The name of the image can be specified in the user interface.
+
+The folder can be anywhere. It makes sense to use a folder which is
+accessible by all interested users. Here, we use /samba/Images as
+an example.
+
+First, create the folder, and make it writeable by the clearpet user:
+mkdir /samba/Images
+chown clearpet.users /samba/Images
+chmow g+w /samba/Images
+
+The software must now where the folder is located. The folder name must
+be specified in the /etc/clearpet.conf file. Open the file in a test editor,
+and locate the line containing the key name "ImageDir". Write the name
+of your image directory there. Save the file.
+
+After successful reconstruction, you will find your images in this folder.
+

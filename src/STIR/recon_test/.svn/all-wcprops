@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_test
+END
+bcktest.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_test/bcktest.cxx
+END
+fwdtest.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_test/fwdtest.cxx
+END
+test.mk
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_test/test.mk
+END
+test_DataSymmetriesForBins_PET_CartesianGrid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_test/test_DataSymmetriesForBins_PET_CartesianGrid.cxx
+END
+exe.mk
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_test/exe.mk
+END

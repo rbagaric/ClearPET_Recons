@@ -1,0 +1,159 @@
+opt/recon_buildblock/ProjMatrixElemsForOneBin.o: \
+ recon_buildblock/ProjMatrixElemsForOneBin.cxx include/stir/Succeeded.h \
+ include/stir/common.h include/boost/config.hpp \
+ include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBin.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.inl \
+ include/stir/Coordinate3D.h include/stir/BasicCoordinate.h \
+ include/boost/operators.hpp include/boost/iterator.hpp \
+ include/boost/detail/workaround.hpp include/stir/BasicCoordinate.inl \
+ include/stir/detail/test_if_1d.h include/stir/Coordinate3D.inl \
+ include/stir/Bin.h include/stir/Bin.inl \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBin.inl \
+ include/stir/DiscretisedDensity.h include/stir/CartesianCoordinate3D.h \
+ include/stir/CartesianCoordinate3D.inl include/stir/Array.h \
+ include/stir/NumericVectorWithOffset.h include/stir/VectorWithOffset.h \
+ include/stir/VectorWithOffset.inl \
+ include/stir/NumericVectorWithOffset.inl include/stir/ByteOrder.h \
+ include/stir/ByteOrder.inl include/stir/IndexRange.h \
+ include/stir/IndexRange.inl include/stir/FullArrayIterator.h \
+ include/stir/FullArrayIterator.inl include/stir/Array.inl \
+ include/stir/shared_ptr.h include/stir/shared_ptr.inl \
+ include/stir/DiscretisedDensity.inl \
+ include/stir/recon_buildblock/SymmetryOperation.h \
+ include/stir/recon_buildblock/DataSymmetriesForBins.h \
+ include/stir/DataSymmetriesForViewSegmentNumbers.h \
+ include/stir/ProjDataInfo.h include/stir/Scanner.h \
+ include/stir/DetectionPosition.h include/stir/DetectionPosition.inl \
+ include/stir/Scanner.inl include/stir/ProjDataInfo.inl \
+ include/stir/Coordinate2D.h include/stir/Coordinate2D.inl \
+ include/stir/recon_buildblock/DataSymmetriesForBins.inl \
+ include/stir/recon_buildblock/RelatedBins.h \
+ include/stir/recon_buildblock/RelatedBins.inl
+
+include/stir/Succeeded.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBin.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.inl:
+
+include/stir/Coordinate3D.h:
+
+include/stir/BasicCoordinate.h:
+
+include/boost/operators.hpp:
+
+include/boost/iterator.hpp:
+
+include/boost/detail/workaround.hpp:
+
+include/stir/BasicCoordinate.inl:
+
+include/stir/detail/test_if_1d.h:
+
+include/stir/Coordinate3D.inl:
+
+include/stir/Bin.h:
+
+include/stir/Bin.inl:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBin.inl:
+
+include/stir/DiscretisedDensity.h:
+
+include/stir/CartesianCoordinate3D.h:
+
+include/stir/CartesianCoordinate3D.inl:
+
+include/stir/Array.h:
+
+include/stir/NumericVectorWithOffset.h:
+
+include/stir/VectorWithOffset.h:
+
+include/stir/VectorWithOffset.inl:
+
+include/stir/NumericVectorWithOffset.inl:
+
+include/stir/ByteOrder.h:
+
+include/stir/ByteOrder.inl:
+
+include/stir/IndexRange.h:
+
+include/stir/IndexRange.inl:
+
+include/stir/FullArrayIterator.h:
+
+include/stir/FullArrayIterator.inl:
+
+include/stir/Array.inl:
+
+include/stir/shared_ptr.h:
+
+include/stir/shared_ptr.inl:
+
+include/stir/DiscretisedDensity.inl:
+
+include/stir/recon_buildblock/SymmetryOperation.h:
+
+include/stir/recon_buildblock/DataSymmetriesForBins.h:
+
+include/stir/DataSymmetriesForViewSegmentNumbers.h:
+
+include/stir/ProjDataInfo.h:
+
+include/stir/Scanner.h:
+
+include/stir/DetectionPosition.h:
+
+include/stir/DetectionPosition.inl:
+
+include/stir/Scanner.inl:
+
+include/stir/ProjDataInfo.inl:
+
+include/stir/Coordinate2D.h:
+
+include/stir/Coordinate2D.inl:
+
+include/stir/recon_buildblock/DataSymmetriesForBins.inl:
+
+include/stir/recon_buildblock/RelatedBins.h:
+
+include/stir/recon_buildblock/RelatedBins.inl:

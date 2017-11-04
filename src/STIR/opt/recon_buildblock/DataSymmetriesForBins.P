@@ -1,0 +1,102 @@
+opt/recon_buildblock/DataSymmetriesForBins.o: \
+ recon_buildblock/DataSymmetriesForBins.cxx \
+ include/stir/recon_buildblock/DataSymmetriesForBins.h \
+ include/stir/DataSymmetriesForViewSegmentNumbers.h include/stir/common.h \
+ include/boost/config.hpp include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/stir/ProjDataInfo.h include/stir/VectorWithOffset.h \
+ include/stir/VectorWithOffset.inl include/stir/Scanner.h \
+ include/stir/DetectionPosition.h include/stir/DetectionPosition.inl \
+ include/stir/Scanner.inl include/stir/shared_ptr.h \
+ include/stir/shared_ptr.inl include/stir/ProjDataInfo.inl \
+ include/stir/Coordinate2D.h include/stir/BasicCoordinate.h \
+ include/boost/operators.hpp include/boost/iterator.hpp \
+ include/boost/detail/workaround.hpp include/stir/BasicCoordinate.inl \
+ include/stir/detail/test_if_1d.h include/stir/Coordinate2D.inl \
+ include/stir/recon_buildblock/DataSymmetriesForBins.inl \
+ include/stir/Bin.h include/stir/Bin.inl \
+ include/stir/ViewSegmentNumbers.h include/stir/ViewSegmentNumbers.inl \
+ include/stir/recon_buildblock/SymmetryOperation.h
+
+include/stir/recon_buildblock/DataSymmetriesForBins.h:
+
+include/stir/DataSymmetriesForViewSegmentNumbers.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/stir/ProjDataInfo.h:
+
+include/stir/VectorWithOffset.h:
+
+include/stir/VectorWithOffset.inl:
+
+include/stir/Scanner.h:
+
+include/stir/DetectionPosition.h:
+
+include/stir/DetectionPosition.inl:
+
+include/stir/Scanner.inl:
+
+include/stir/shared_ptr.h:
+
+include/stir/shared_ptr.inl:
+
+include/stir/ProjDataInfo.inl:
+
+include/stir/Coordinate2D.h:
+
+include/stir/BasicCoordinate.h:
+
+include/boost/operators.hpp:
+
+include/boost/iterator.hpp:
+
+include/boost/detail/workaround.hpp:
+
+include/stir/BasicCoordinate.inl:
+
+include/stir/detail/test_if_1d.h:
+
+include/stir/Coordinate2D.inl:
+
+include/stir/recon_buildblock/DataSymmetriesForBins.inl:
+
+include/stir/Bin.h:
+
+include/stir/Bin.inl:
+
+include/stir/ViewSegmentNumbers.h:
+
+include/stir/ViewSegmentNumbers.inl:
+
+include/stir/recon_buildblock/SymmetryOperation.h:

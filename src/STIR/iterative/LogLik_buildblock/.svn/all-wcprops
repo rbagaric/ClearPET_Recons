@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/LogLik_buildblock
+END
+LogLikelihoodBasedReconstruction.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/LogLik_buildblock/LogLikelihoodBasedReconstruction.cxx
+END
+common.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/LogLik_buildblock/common.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/iterative/LogLik_buildblock/lib.mk
+END

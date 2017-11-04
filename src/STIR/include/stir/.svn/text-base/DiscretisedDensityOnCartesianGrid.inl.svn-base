@@ -1,0 +1,125 @@
+//
+// $Id: DiscretisedDensityOnCartesianGrid.inl,v 1.4 2004/06/30 17:09:14 kris Exp $
+//
+/*!
+  \file 
+  \ingroup densitydata 
+  \brief  inline implementations for DiscretisedDensityOnCartesianGrid
+
+  \author Sanida Mustafovic 
+  \author Kris Thielemans 
+  \author (help from Alexey Zverovich)
+  \author PARAPET project
+
+  $Date: 2004/06/30 17:09:14 $
+
+  $Revision: 1.4 $
+
+*/
+/*
+    Copyright (C) 2000 PARAPET partners
+    Copyright (C) 2000- $Date: 2004/06/30 17:09:14 $, Hammersmith Imanet Ltd
+    See STIR/LICENSE.txt for details
+*/
+
+
+START_NAMESPACE_STIR
+
+template<int num_dimensions, typename elemT>
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+DiscretisedDensityOnCartesianGrid()
+: DiscretisedDensity<num_dimensions, elemT>(),grid_spacing()
+{
+#ifndef STIR_NO_NAMESPACES
+  std::fill(grid_spacing.begin(), grid_spacing.end(), 0.F);
+#else
+  // hopefully your compiler understands this.
+  // It attempts to avoid conflicts with Array::fill
+  ::fill(grid_spacing.begin(), grid_spacing.end(), 0.F);
+#endif
+}
+
+template<int num_dimensions, typename elemT>
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+DiscretisedDensityOnCartesianGrid
+(const IndexRange<num_dimensions>& range_v, 
+ const CartesianCoordinate3D<float>& origin_v,
+ const BasicCoordinate<num_dimensions,float>& grid_spacing_v)
+  : DiscretisedDensity<num_dimensions, elemT>(range_v,origin_v),
+    grid_spacing(grid_spacing_v)
+{}
+
+template<int num_dimensions, typename elemT>
+const BasicCoordinate<num_dimensions,float>& 
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_grid_spacing() const
+{ return grid_spacing; }
+
+template<int num_dimensions, typename elemT>
+void 
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+set_grid_spacing(const BasicCoordinate<num_dimensions,float>& grid_spacing_v)
+{
+  grid_spacing = grid_spacing_v;
+}
+
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_min_z() const
+{ return this->get_min_index();} 
+
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_min_y() const
+{ return this->get_length()==0 ? 0 : (*this)[get_min_z()].get_min_index(); }
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_min_x() const
+{ return this->get_length()==0 ? 0 : (*this)[get_min_z()][get_min_y()].get_min_index(); }
+
+
+template<int num_dimensions, typename elemT>
+int 
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_x_size() const
+{ return  this->get_length()==0 ? 0 : (*this)[get_min_z()][get_min_y()].get_length(); }
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_y_size() const
+{ return this->get_length()==0 ? 0 : (*this)[get_min_z()].get_length();}
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_z_size() const
+{ return this->get_length(); }
+
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_max_x() const
+{ return this->get_length()==0 ? 0 : (*this)[get_min_z()][get_min_y()].get_max_index();}
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_max_y() const
+{ return this->get_length()==0 ? 0 : (*this)[get_min_z()].get_max_index();}
+
+template<int num_dimensions, typename elemT>
+int
+DiscretisedDensityOnCartesianGrid<num_dimensions, elemT>::
+get_max_z() const
+{ return this->get_max_index(); }
+
+
+END_NAMESPACE_STIR					 

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ClearPET_Recons/!svn/ver/2/trunk/src/STIR/opt/utilities
+END
+ifheaders_for_ecat7
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/opt/utilities/ifheaders_for_ecat7
+END
+conv_to_ecat7
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/opt/utilities/conv_to_ecat7
+END

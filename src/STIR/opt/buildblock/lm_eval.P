@@ -1,0 +1,6 @@
+opt/buildblock/lm_eval.o: buildblock/lm_eval.cxx include/stir/lmmin.h \
+ include/stir/lm_eval.h
+
+include/stir/lmmin.h:
+
+include/stir/lm_eval.h:

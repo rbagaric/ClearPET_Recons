@@ -1,0 +1,6 @@
+opt/buildblock/scatterfit.o: buildblock/scatterfit.cxx \
+ include/stir/lmmin.h include/stir/scatterfit.h
+
+include/stir/lmmin.h:
+
+include/stir/scatterfit.h:

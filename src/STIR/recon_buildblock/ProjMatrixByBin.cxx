@@ -1,0 +1,171 @@
+//
+// $Id: ProjMatrixByBin.cxx,v 1.4 2004/03/23 11:59:31 kris Exp $
+//
+/*!
+
+  \file
+  \ingroup projection
+  
+  \brief  implementation of the ProjMatrixByBin class 
+    
+  \author Mustapha Sadki
+  \author Kris Thielemans
+  \author PARAPET project
+      
+  $Date: 2004/03/23 11:59:31 $
+        
+  $Revision: 1.4 $
+*/
+/*
+    Copyright (C) 2000 PARAPET partners
+    Copyright (C) 2000- $Date: 2004/03/23 11:59:31 $, Hammersmith Imanet Ltd
+    See STIR/LICENSE.txt for details
+*/
+
+
+#include "stir/recon_buildblock/ProjMatrixByBin.h"
+#include "stir/recon_buildblock/ProjMatrixElemsForOneBin.h"
+
+
+START_NAMESPACE_STIR
+
+void ProjMatrixByBin::set_defaults()
+{
+  cache_disabled=false;
+  cache_stores_only_basic_bins=true;
+}
+
+void 
+ProjMatrixByBin::initialise_keymap()
+{
+  parser.add_key("disable caching", &cache_disabled);
+  parser.add_key("store_only_basic_bins_in_cache", &cache_stores_only_basic_bins);
+}
+
+bool
+ProjMatrixByBin::post_processing()
+{
+  return false;
+}
+
+ProjMatrixByBin::ProjMatrixByBin()
+{ 
+  set_defaults();
+}
+ 
+void 
+ProjMatrixByBin::
+enable_cache(const bool v)
+{ cache_disabled = v;}
+
+void 
+ProjMatrixByBin::
+store_only_basic_bins_in_cache(const bool v) 
+{ cache_stores_only_basic_bins=v;}
+
+bool 
+ProjMatrixByBin::
+is_cache_enabled() const
+{ return !cache_disabled; }
+
+bool 
+ProjMatrixByBin::
+does_cache_store_only_basic_bins() const
+{ return cache_stores_only_basic_bins; }
+
+Succeeded 
+ProjMatrixByBin::
+get_cached_proj_matrix_elems_for_one_bin(
+                                         ProjMatrixElemsForOneBin& probabilities) const
+{  
+  if ( cache_disabled ) 
+    return Succeeded::no;
+  
+  const Bin bin = probabilities.get_bin();
+
+#ifndef NDEBUG
+  if (cache_stores_only_basic_bins)
+  {
+    // Check that this is a 'basic' coordinate
+    Bin bin_copy = bin; 
+    assert ( symmetries_ptr->find_basic_bin(bin_copy) == 0);     
+  }
+#endif         
+  
+	 
+  const_MapProjMatrixElemsForOneBinIterator  pos = 
+    cache_collection.find(cache_key( bin));
+  
+  if ( pos != cache_collection. end())
+  { 
+    //cout << Key << " =========>> entry found in cache " <<  endl;
+    probabilities = pos->second;	 	                    
+    return Succeeded::yes;	
+  } 
+  
+  //cout << " This entry  is not in the cache :" << Key << endl;	
+  return Succeeded::no;
+}
+
+
+
+//TODO
+
+
+
+//////////////////////////////////////////////////////////////////////////  
+#if 0
+// KT moved here
+//! store the projection matrix to the file by rows 
+void ProjMatrixByBin::write_to_file_by_bin(
+                                      const char * const file_name_without_extension)
+{ 
+  char h_interfile[256];
+  sprintf (h_interfile, "%s.hp", file_name_without_extension );
+  FILE * prob_file = fopen (h_interfile , "wb");
+  sprintf (h_interfile, "%s.p", file_name_without_extension );
+  fstream pout;
+  open_write_binary(pout, h_interfile);
+  
+  // KT tough ! write Symmetries to file!
+  // scan_info ==> interfile header 
+  
+  int t, get_num_delta = 15;// todo change to scan_info.get_num_delta();
+  pout.write( (char*)&get_num_delta, sizeof (int));
+  t =  proj_data_info_ptr->get_num_views()/4;
+  pout.write( (char*)& t,sizeof (int));
+  t=  proj_data_info_ptr->get_num_tangential_poss()/2;
+  pout.write( (char*)&t, sizeof (int));
+  int max_z = image_info.get_max_z();
+  pout.write( (char*)& max_z, sizeof(int));
+  
+  int nviews =  proj_data_info_ptr->get_num_views();
+  pout.write( (char*)& nviews, sizeof(int));
+  
+  //float offset = offset_ring();	pout.write( (char*)& offset, sizeof(float));
+  
+  for ( int seg = 0; seg <= get_num_delta; ++seg)
+    for ( int view = 0 ;view <= proj_data_info_ptr->get_num_views()/4;++view)  
+      for ( int bin = 0 ;bin <=  proj_data_info_ptr->get_num_tangential_poss()/2;++bin)  
+        for ( int ring = 0; ring <= 0 /*get_num_rings()*/ ;++ring) // only ring 0
+        {	    
+          ProjMatrixElemsForOneBin ProbForOneBin; 
+          get_proj_matrix_elems_for_one_bin(
+            ProbForOneBin, 
+            seg, 
+            view, 
+            ring, 
+            bin);  
+          cout << " get_number_of_elements() " << ProbForOneBin. get_number_of_elements() << endl; 	   	   
+          ProbForOneBin.write(pout); 
+        }
+        pout.close();   
+        fclose(prob_file);
+        cout << "End of write_to_file_by_bin " << endl; 
+}
+
+
+#endif
+
+
+END_NAMESPACE_STIR

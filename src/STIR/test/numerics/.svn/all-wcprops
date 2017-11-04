@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/numerics
+END
+test.mk
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/numerics/test.mk
+END
+test_matrices.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/numerics/test_matrices.cxx
+END

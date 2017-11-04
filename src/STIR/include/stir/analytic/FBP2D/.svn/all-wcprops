@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/analytic/FBP2D
+END
+FBP2DReconstruction.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/analytic/FBP2D/FBP2DReconstruction.h
+END
+RampFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/analytic/FBP2D/RampFilter.h
+END

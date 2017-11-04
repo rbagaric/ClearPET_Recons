@@ -1,0 +1,68 @@
+#!/bin/sh
+#
+# /etc/init.d/clearpet
+#
+### BEGIN INIT INFO
+# Provides:			clearpet
+# Required-Start:		$local_fs $remote_fs $network 
+# Required-Stop:		$local_fs $remote_fs $network
+# Default-Start:		3 5
+# Default-Stop:			0 1 2 6
+# Short-Description:		Clearpet Reconstruction Scheduler
+#. Description:			Start the Clearpet Reconstruction Scheduler
+### END INIT INFO
+
+pname=clearpet
+: ${clearpet_bin:=/home_clearpet/scripts/recons_scheduler.pl}
+: ${pidfile:=/var/run/recons_scheduler.pid}
+: ${homedir:=/home_clearpet}
+
+# See if the daemon is there
+test -x $clearpet_bin || exit 0
+
+. /lib/lsb/init-functions
+
+
+# a proper home should be set, otherwise the server might end up 
+# with HOME=/root and some script might try to use that
+HOME=$homedir
+
+case "$1" in
+    start*)
+	log_daemon_msg "Starting ClearPET Reconstruction scheduler"
+	if ! start-stop-daemon --start -b --quiet --oknodo --pidfile $pidfile --exec $clearpet_bin --; then
+		log_end_msg 1
+		exit 1
+	fi
+	log_end_msg 0
+	;;
+
+    reload)
+	log_daemon_msg "Reloading ClearPET configuration"
+	start-stop-daemon --stop --signal HUP --pidfile $pidfile
+	log_end_msg 0
+	;;
+
+    stop)
+	log_daemon_msg "Shutting down ClearPET Reconstruction scheduler"
+	start-stop-daemon --stop --quiet --pidfile $pidfile
+	sleep 1
+	if [ -f $pidfile ];
+	then
+		rm -f $pidfile
+	fi
+	log_end_msg 0
+	;;
+
+    restart)
+	$0 stop
+	sleep 1
+	$0 start
+	;;
+
+    *)
+	echo "Usage: $0 {start|stop|reload|restart}"
+   	exit 1
+esac
+
+exit 0

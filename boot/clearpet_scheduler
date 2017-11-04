@@ -1,0 +1,135 @@
+#!/bin/sh
+#
+# /etc/init.d/clearpet
+#
+### BEGIN INIT INFO
+# Provides:			clearpet
+# Required-Start:		$local_fs $remote_fs $network 
+# Required-Stop:		$local_fs $remote_fs $network
+# Default-Start:		3 5
+# Default-Stop:			0 1 2 6
+# Short-Description:		Clearpet Reconstruction Scheduler
+# Description:			Start the Clearpet Reconstruction Scheduler
+### END INIT INFO
+
+pname=clearpet
+: ${clearpet_bin:=/home/clearpet/scripts/recons_scheduler.pl}
+: ${pidfile:=/var/run/recons_scheduler.pid}
+: ${homedir:=/home/clearpet}
+
+#
+# load the configuration
+#
+test -s /etc/rc.status && . /etc/rc.status && rc_reset
+
+if ! [ -x $clearpet_bin ]; then
+	echo >&2 ${warn}$clearpet_bin is not a valid binary. 
+	rc_failed 5
+	rc_status -v1
+	rc_exit
+fi
+
+# a proper home should be set, otherwise the server might end up 
+# with HOME=/root and some script might try to use that
+HOME=$homedir
+
+action="$1"
+
+#
+# main part 
+#
+case "$action" in
+    start*)
+	if [ -e $pidfile ]; then
+	        $0 status &>/dev/null
+		ret=$?
+		if [ $ret = 1 ]; then
+				echo "Warning: found stale pidfile (unclean shutdown?)"
+		elif [ $ret = 0 ]; then
+				echo "ClearPET Reconstruction scheduler is already running ($pidfile)"
+				rc_failed $ret
+				rc_status -v1
+				rc_exit
+		fi
+	fi
+
+	echo -n "Starting ClearPET Reconstruction scheduler "
+	cmdline=$(echo $clearpet_bin)
+	eval startproc -f $cmdline
+	ret=$?
+
+	rc_failed $ret
+	rc_status -v
+	;;
+    reload)
+	echo -n "Reloading ClearPET configuration"
+	if ! [ -f $pidfile ]; then
+		echo -n "(not running)"
+	else
+		pid=$(<$pidfile)
+		kill -HUP $pid 2>/dev/null
+		case $? in
+		    1)  echo -n "(not running)";;
+		    0) ;;
+		esac
+	fi
+	rc_status -v
+	;;
+    stop)
+	echo -n "Shutting down ClearPET Reconstruction scheduler "
+	if ! [ -f $pidfile ]; then
+		echo -n "(not running)"
+	else
+		pid=$(<$pidfile)
+		kill -TERM $pid 2>/dev/null
+		case $? in
+		    1)  echo -n "(not running)";;
+		    0) ;;
+		esac
+	fi
+
+	rc_status -v
+	;;
+    restart)
+	$0 configtest "$@" || { rc_failed $?; rc_exit; }
+
+	if $0 status &>/dev/null; then 
+		$0 stop
+	fi
+	$0 start "$@"
+	# Remember status and be quiet
+	rc_status
+	;;
+    status)
+    echo -n "Checking for ClearPET reconstruction scheduler: "
+	# we don't use checkproc here since it is confused when we exchange the binaries
+	if ! [ -f $pidfile ]; then
+		# not running
+		rc_failed 3
+	elif [ -s $pidfile -a -d /proc/$(<$pidfile) ]; then
+		# running
+		:
+	else
+		# stale pid file
+		rc_failed 1
+		#rm -f $pidfile
+	fi
+	rc_status -v
+	;;
+    *)
+    cat >&2 <<-EOF 
+	Usage: $0 <command> <server flags>
+
+	where <command> is one of:
+	        start              - start ClearPET reconstruction scheduler
+	        stop               - stop ClearPET reconstruction scheduler
+	        reload             - reload configuration file
+	        status             - check whether scheduler is running
+	        help               - this screen
+	EOF
+    exit 1
+esac
+
+
+# Inform the caller not only verbosely and set an exit status.
+rc_exit

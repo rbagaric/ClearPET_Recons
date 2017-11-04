@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples
+END
+demoPM.par
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples/demoPM.par
+END
+demo.par
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples/demo.par
+END
+demo1.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples/demo1.cxx
+END
+demo2.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples/demo2.cxx
+END
+exe.mk
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples/exe.mk
+END
+demo3.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples/demo3.cxx
+END
+generate_image.par
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/examples/generate_image.par
+END

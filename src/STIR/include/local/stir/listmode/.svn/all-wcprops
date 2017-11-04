@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/local/stir/listmode
+END
+CListModeDataLMF.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/local/stir/listmode/CListModeDataLMF.h
+END
+CListRecordLMF.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/local/stir/listmode/CListRecordLMF.h
+END

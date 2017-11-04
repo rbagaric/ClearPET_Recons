@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/numerics_buildblock
+END
+fourier.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/numerics_buildblock/fourier.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/numerics_buildblock/lib.mk
+END

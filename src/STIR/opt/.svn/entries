@@ -1,0 +1,107 @@
+10
+
+dir
+35
+https://dev.raytest.de/repos/ClearPET_Recons/trunk/src/STIR/opt
+https://dev.raytest.de/repos/ClearPET_Recons
+
+
+
+2008-08-02T13:15:36.083430Z
+2
+wagner
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+8d278204-7953-0410-b0ac-9f1a4c1cca7a
+
+numerics_buildblock
+dir
+
+eval_buildblock
+dir
+
+stNhkjiK
+file
+
+
+
+
+2011-04-18T12:45:36.905297Z
+e0ef54f02ea17c71717c217fff8247b1
+2008-08-02T12:37:43.608597Z
+1
+wagner
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1105920
+
+local
+dir
+
+Shape_buildblock
+dir
+
+iterative
+dir
+
+recon_buildblock
+dir
+
+data_buildblock
+dir
+
+analytic
+dir
+
+recon_test
+dir
+
+display
+dir
+
+IO
+dir
+
+listmode_buildblock
+dir
+
+buildblock
+dir
+
+utilities
+dir
+
+listmode_utilities
+dir
+

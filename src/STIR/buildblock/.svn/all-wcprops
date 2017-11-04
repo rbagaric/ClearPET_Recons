@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ClearPET_Recons/!svn/ver/16/trunk/src/STIR/buildblock
+END
+ArrayFilter1DUsingConvolution.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ArrayFilter1DUsingConvolution.cxx
+END
+ArrayFilterUsingRealDFTWithPadding.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ArrayFilterUsingRealDFTWithPadding.cxx
+END
+lm_eval.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/lm_eval.cxx
+END
+ProjDataInMemory.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataInMemory.cxx
+END
+IndexRange.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/IndexRange.cxx
+END
+SegmentByView.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/SegmentByView.cxx
+END
+Scanner.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/Scanner.cxx
+END
+MedianArrayFilter3D.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/MedianArrayFilter3D.cxx
+END
+error.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/error.cxx
+END
+recon_array_functions.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/recon_array_functions.cxx
+END
+ArcCorrection.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ArcCorrection.cxx
+END
+MedianImageFilter3D.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/MedianImageFilter3D.cxx
+END
+ChainedImageProcessor.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ChainedImageProcessor.cxx
+END
+SeparableCartesianMetzImageFilter.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/SeparableCartesianMetzImageFilter.cxx
+END
+DiscretisedDensity.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/DiscretisedDensity.cxx
+END
+Array1d.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/Array1d.cxx
+END
+convert_array1d.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/convert_array1d.cxx
+END
+ProjDataFromStream.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataFromStream.cxx
+END
+NumericType.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/NumericType.cxx
+END
+RelatedViewgrams.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/RelatedViewgrams.cxx
+END
+KeyParser.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/16/trunk/src/STIR/buildblock/KeyParser.cxx
+END
+TimeFrameDefinitions.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/TimeFrameDefinitions.cxx
+END
+warning.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/warning.cxx
+END
+ProjDataInterfile.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataInterfile.cxx
+END
+scatterfit.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/scatterfit.cxx
+END
+SSRB.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/SSRB.cxx
+END
+centre_of_gravity.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/centre_of_gravity.cxx
+END
+ProjDataInfoCylindricalArcCorr.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataInfoCylindricalArcCorr.cxx
+END
+linear_regression.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/linear_regression.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/lib.mk
+END
+DataSymmetriesForViewSegmentNumbers.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/DataSymmetriesForViewSegmentNumbers.cxx
+END
+lmmin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/lmmin.cxx
+END
+VoxelsOnCartesianGrid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/VoxelsOnCartesianGrid.cxx
+END
+interfile_keyword_functions.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/interfile_keyword_functions.cxx
+END
+Array.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/Array.cxx
+END
+convert_array.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/convert_array.cxx
+END
+overlap_interpolate.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/overlap_interpolate.cxx
+END
+Sinogram.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/Sinogram.cxx
+END
+ThresholdMinToSmallPositiveValueImageProcessor.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ThresholdMinToSmallPositiveValueImageProcessor.cxx
+END
+ProjDataInfo.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataInfo.cxx
+END
+Viewgram.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/Viewgram.cxx
+END
+RegisteredObject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/RegisteredObject.cxx
+END
+zoom.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/zoom.cxx
+END
+line.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/line.cxx
+END
+SeparableArrayFunctionObject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/SeparableArrayFunctionObject.cxx
+END
+ParsingObject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ParsingObject.cxx
+END
+SegmentBySinogram.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/SegmentBySinogram.cxx
+END
+ProjDataInfoCylindrical.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataInfoCylindrical.cxx
+END
+ByteOrder.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ByteOrder.cxx
+END
+ProjDataGEAdvance.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataGEAdvance.cxx
+END
+SeparableMetzArrayFilter.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/SeparableMetzArrayFilter.cxx
+END
+ProjData.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjData.cxx
+END
+ProjDataInfoCylindricalNoArcCorr.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ProjDataInfoCylindricalNoArcCorr.cxx
+END
+SeparableConvolutionImageFilter.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/SeparableConvolutionImageFilter.cxx
+END
+buildblock_registries.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/buildblock_registries.cxx
+END
+utilities.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/utilities.cxx
+END
+ArrayFilter1DUsingConvolutionSymmetricKernel.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/buildblock/ArrayFilter1DUsingConvolutionSymmetricKernel.cxx
+END

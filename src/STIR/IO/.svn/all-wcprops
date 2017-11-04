@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO
+END
+interfile.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/interfile.cxx
+END
+ecat6_utils.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/ecat6_utils.cxx
+END
+stir_ecat6.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/stir_ecat6.cxx
+END
+RegisteredObject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/RegisteredObject.cxx
+END
+stir_ecat7.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/stir_ecat7.cxx
+END
+stir_ecat_common.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/stir_ecat_common.cxx
+END
+IO_registries.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/IO_registries.cxx
+END
+OutputFileFormat.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/OutputFileFormat.cxx
+END
+InterfileHeader.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/InterfileHeader.cxx
+END
+InterfileOutputFileFormat.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/InterfileOutputFileFormat.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/lib.mk
+END
+ECAT6OutputFileFormat.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/ECAT6OutputFileFormat.cxx
+END
+ECAT7OutputFileFormat.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/IO/ECAT7OutputFileFormat.cxx
+END

@@ -1,0 +1,90 @@
+opt/recon_buildblock/SymmetryOperation.o: \
+ recon_buildblock/SymmetryOperation.cxx \
+ include/stir/recon_buildblock/SymmetryOperation.h include/stir/common.h \
+ include/boost/config.hpp include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBin.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.inl \
+ include/stir/Coordinate3D.h include/stir/BasicCoordinate.h \
+ include/boost/operators.hpp include/boost/iterator.hpp \
+ include/boost/detail/workaround.hpp include/stir/BasicCoordinate.inl \
+ include/stir/detail/test_if_1d.h include/stir/Coordinate3D.inl \
+ include/stir/Bin.h include/stir/Bin.inl \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBin.inl \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneDensel.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneDenselValue.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneDenselValue.inl \
+ include/stir/Densel.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneDensel.inl
+
+include/stir/recon_buildblock/SymmetryOperation.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBin.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.inl:
+
+include/stir/Coordinate3D.h:
+
+include/stir/BasicCoordinate.h:
+
+include/boost/operators.hpp:
+
+include/boost/iterator.hpp:
+
+include/boost/detail/workaround.hpp:
+
+include/stir/BasicCoordinate.inl:
+
+include/stir/detail/test_if_1d.h:
+
+include/stir/Coordinate3D.inl:
+
+include/stir/Bin.h:
+
+include/stir/Bin.inl:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBin.inl:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneDensel.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneDenselValue.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneDenselValue.inl:
+
+include/stir/Densel.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneDensel.inl:

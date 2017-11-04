@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/analytic/FBP3DRP
+END
+FBP3DRP.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/analytic/FBP3DRP/FBP3DRP.cxx
+END
+FBP3DRPReconstruction.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/analytic/FBP3DRP/FBP3DRPReconstruction.cxx
+END
+ColsherFilter.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/analytic/FBP3DRP/ColsherFilter.cxx
+END
+exe.mk
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/analytic/FBP3DRP/exe.mk
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/analytic/FBP3DRP/lib.mk
+END

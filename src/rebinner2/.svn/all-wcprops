@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/ClearPET_Recons/!svn/ver/35/trunk/src/rebinner2
+END
+geometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/26/trunk/src/rebinner2/geometry.h
+END
+options.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/24/trunk/src/rebinner2/options.h
+END
+rebinner2.sln
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/33/trunk/src/rebinner2/rebinner2.sln
+END
+lor.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ClearPET_Recons/!svn/ver/26/trunk/src/rebinner2/lor.h
+END
+coincevent.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/27/trunk/src/rebinner2/coincevent.h
+END
+gatereader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/gatereader.cpp
+END
+clearpet.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/27/trunk/src/rebinner2/clearpet.h
+END
+rebinner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/33/trunk/src/rebinner2/rebinner.cpp
+END
+rootreader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/35/trunk/src/rebinner2/rootreader.cpp
+END
+rebinner2.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/rebinner2.vcproj
+END
+rebinner2_gate.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/rebinner2_gate.vcproj
+END
+gatereader.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/gatereader.h
+END
+crystals_main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/29/trunk/src/rebinner2/crystals_main.cpp
+END
+rebinner.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/rebinner.h
+END
+rebinner2_root.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/33/trunk/src/rebinner2/rebinner2_root.vcproj
+END
+rootreader.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/33/trunk/src/rebinner2/rootreader.h
+END
+miniLMFReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/27/trunk/src/rebinner2/miniLMFReader.cpp
+END
+sinogram.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/31/trunk/src/rebinner2/sinogram.cpp
+END
+miniLMFReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/24/trunk/src/rebinner2/miniLMFReader.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/main.cpp
+END
+inttypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/24/trunk/src/rebinner2/inttypes.h
+END
+sinogram.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/30/trunk/src/rebinner2/sinogram.h
+END
+crystals.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/31/trunk/src/rebinner2/crystals.vcproj
+END
+noncopy.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/24/trunk/src/rebinner2/noncopy.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/version.h
+END
+options.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/24/trunk/src/rebinner2/options.cpp
+END
+geometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/32/trunk/src/rebinner2/geometry.cpp
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ClearPET_Recons/!svn/ver/33/trunk/src/rebinner2/Makefile
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/repos/ClearPET_Recons/!svn/ver/23/trunk/src/STIR
+END
+LICENSE.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/LICENSE.txt
+END
+Doxyfile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Doxyfile
+END
+VERSION.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/VERSION.txt
+END
+test.mk
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test.mk
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/ChangeLog
+END
+exe.mk
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/exe.mk
+END
+Makefile_common_system_type
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Makefile_common_system_type
+END
+CREDITS.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/CREDITS.txt
+END
+config.mk
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/config.mk
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/lib.mk
+END
+LGPL.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/LGPL.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Makefile
+END

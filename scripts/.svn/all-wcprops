@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/repos/ClearPET_Recons/!svn/ver/22/trunk/scripts
+END
+recons_scheduler.pl
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/20/trunk/scripts/recons_scheduler.pl
+END
+recons.pl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ClearPET_Recons/!svn/ver/22/trunk/scripts/recons.pl
+END
+normalize.pl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ClearPET_Recons/!svn/ver/22/trunk/scripts/normalize.pl
+END
+delete.pl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ClearPET_Recons/!svn/ver/21/trunk/scripts/delete.pl
+END

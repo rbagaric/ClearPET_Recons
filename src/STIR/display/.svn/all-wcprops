@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display
+END
+gen.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/gen.h
+END
+screen.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/screen.c
+END
+mathlinkhelp.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/mathlinkhelp.c
+END
+display_array.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/display_array.cxx
+END
+screen.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/screen.h
+END
+gen.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/gen.c
+END
+screengen.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/screengen.c
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/display/lib.mk
+END

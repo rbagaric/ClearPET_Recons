@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities
+END
+extract_segments.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/extract_segments.cxx
+END
+get_time_frame_info.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/get_time_frame_info.cxx
+END
+create_projdata_template.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/create_projdata_template.cxx
+END
+ifheaders_for_ecat7.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/ifheaders_for_ecat7.cxx
+END
+rebin_projdata.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/rebin_projdata.cxx
+END
+correct_projdata.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/correct_projdata.cxx
+END
+exe.mk
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/exe.mk
+END
+zoom_image.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/zoom_image.cxx
+END
+poisson_noise.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/poisson_noise.cxx
+END
+compare_image.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/compare_image.cxx
+END
+manip_projdata.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/manip_projdata.cxx
+END
+display_projdata.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/display_projdata.cxx
+END
+conv_to_ecat6.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/conv_to_ecat6.cxx
+END
+conv_to_ecat7.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/conv_to_ecat7.cxx
+END
+stir_math.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/stir_math.cxx
+END
+postfilter.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/postfilter.cxx
+END
+generate_image.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/generate_image.cxx
+END
+do_linear_regression.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/do_linear_regression.cxx
+END
+ecat_swap_corners.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/ecat_swap_corners.cxx
+END
+list_ROI_values.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/list_ROI_values.cxx
+END
+convecat6_if.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/convecat6_if.cxx
+END
+manip_image.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/manip_image.cxx
+END
+SSRB.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/SSRB.cxx
+END
+compare_projdata.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/compare_projdata.cxx
+END
+list_projdata_info.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/utilities/list_projdata_info.cxx
+END

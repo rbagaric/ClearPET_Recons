@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/local
+END
+extra_dirs.mk
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/local/extra_dirs.mk
+END
+config.mk
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/local/config.mk
+END

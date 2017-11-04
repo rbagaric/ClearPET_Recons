@@ -1,0 +1,1194 @@
+
+src/5rings.c,267
+static LMF_cch_scannerGeometry myScannerGeometry=30,714
+static LMF_cch_scannerGeometry *pScanGeo=31,768
+static double *first_pSubstructuresNumericalValues 32,830
+static double *pSubstructuresNumericalValues=33,889
+void init5rings(36,942
+void make5rings(57,1565
+
+src/askTheMode.c,24
+u16 askTheMode(43,1047
+
+src/bitUtilities.c,64
+u64 putBits(31,662
+u16 getBitsNb(49,904
+u32 poweru32(70,1196
+
+src/blockSorter.c,504
+static u16 sctNb;35,838
+static LIST *listEv;36,856
+static u16 *sctName;37,877
+static u64 *t;38,898
+static CURRENT_CONTENT *pcCC 40,914
+static ENCODING_HEADER *pEncoHC 41,987
+static EVENT_HEADER *pEHC 42,1060
+static GATE_DIGI_HEADER *pGDHC 43,1133
+static COUNT_RATE_HEADER *pCRHC 44,1207
+static COUNT_RATE_RECORD *pCRRC 45,1281
+static FILE *pfileC 46,1355
+static char *fileNameC;47,1383
+void setNbOfSct(49,1408
+void copyHeads(54,1469
+void sortBlocks(86,2739
+void finalCleanListEv(192,5415
+
+src/buildCRR.c,22
+void buildCRR(34,928
+
+src/buildER.c,21
+void buildER(35,912
+
+src/buildGDR.c,64
+u8 makeOneNumberOfCOmptonWithTwo(38,956
+void buildGDR(60,1352
+
+src/buildHead.c,24
+void buildHead(38,1048
+
+src/calculatesizecountrate.c,35
+u16 calculatesizecountrate(35,928
+
+src/calculatesizeevent.c,31
+u16 calculatesizeevent(33,860
+
+src/calculatesizegatedigi.c,34
+u16 calculatesizegatedigi(33,890
+
+src/calculateSSrepeat.c,31
+i16 calculateSSrepeat(39,1079
+
+src/coinciDeadTimeMgr.c,204
+static int doneOnce 37,1111
+static u64 currentTime=38,1140
+static int deadTimeMode;39,1196
+static u64 numberOfRejected 40,1221
+int  deadTimeCoinciMgr(43,1275
+void deastroyDeadTimeCoinciMgr(100,2186
+
+src/coincidenceAnalyser.c,535
+static u64 nTotalCoincidences 33,972
+static u64 nTrueCoincidences 34,1007
+static u64 nScatterCoincidences 35,1041
+static u64 nRandomCoincidences 36,1111
+static u64 nMultiplesTrues 37,1147
+static u64 nMultiplesScatter 38,1179
+static u64 nMultiplesRandom 39,1213
+static u64 nMultiples 40,1246
+static float factorK 42,1274
+static float NEC 43,1340
+static int doneOnce 44,1362
+static int fileOK 45,1391
+static int fileContainsDetectorCompton 46,1459
+void coincidenceAnalyser(48,1507
+void destroyCoincidenceAnalyser(158,3773
+
+src/coincidenceOutputModule.c,445
+static i8 coincidenceOutputMode;35,1024
+static FILE *pfC 41,1112
+static LIST listC;42,1161
+static int headDone 43,1208
+static EVENT_RECORD *pERCin;44,1237
+void outputCoincidence(45,1266
+void outputCoincidenceModuleDestructor(85,2214
+LIST (*getListOfCoincidenceOutput(90,2280
+void initializeListOfCoincidence(95,2340
+void setCoincidenceOutputMode(100,2459
+u8 getCoincidenceOutputMode(104,2536
+void closeOutputCoincidenceFile(110,2605
+
+src/correctUnknownField.c,32
+int correctUnknownField(36,995
+
+src/countRecords.c,210
+  static int  headalreadyDone 41,1112
+static u64 recordNumber 42,1151
+static u64 numberOfSingles 43,1217
+static u64 numberOfNonSortedSingles 44,1295
+void countRecords(45,1336
+void destroyCounter(115,2698
+
+src/cutEnergyModule.c,707
+static FILE *entree;31,768
+static u16 *pcrist;32,789
+static float energyCalib[33,809
+static int upLimit 34,842
+static int downLimit 35,875
+static int FPGANeighSelect 36,910
+static u64 nRejected 37,944
+static int nb_rsectors,38,970
+static int nb_rsectors, nb_modules,38,970
+static int nb_rsectors, nb_modules, nb_submodules,38,970
+static int nb_rsectors, nb_modules, nb_submodules, nb_crystals,38,970
+static int nb_rsectors, nb_modules, nb_submodules, nb_crystals, nb_layers;38,970
+EVENT_RECORD *cutEnergy(40,1046
+void setEnergyCalib(151,4551
+void setUpEnergyLimit(194,5751
+void setDownEnergyLimit(200,5886
+void setFPGANeighSelect(206,6031
+u64 printEnergyModuleRejectedEventNumber(213,6205
+
+src/cutEventsModule.c,185
+static int upLimit 33,784
+static int downLimit 34,808
+static int nRecord 35,834
+EVENT_RECORD *cutEventsNumber(36,858
+void setRecordUpLimit(75,1519
+void setRecordDownLimit(80,1641
+
+src/DaqTimeCorrector.c,893
+#define SIZE 31,672
+#define TABLESIZE 32,691
+#define AVERAGE_SLOPE_THRESHOLD 34,719
+#define EVENT_TIME_THRESHOLD 35,756
+#define MARGIN 36,790
+static u16 sctNb;38,810
+static u16 *sctName 39,828
+static LIST *eventList 41,857
+static double *oldtime 43,889
+static u32 *deltaN 44,920
+static u32 *strongBitsTime 45,947
+static double *averageSlope 47,983
+static int *slopeNb 48,1019
+static u32 count 51,1049
+static CURRENT_CONTENT *pcCC 53,1072
+static ENCODING_HEADER *pEncoHC 54,1109
+static EVENT_HEADER *pEHC 55,1149
+static GATE_DIGI_HEADER *pGDHC 56,1183
+static COUNT_RATE_HEADER *pCRHC 57,1243
+static COUNT_RATE_RECORD *pCRRC 58,1283
+static FILE *pfileC 59,1323
+static char *fileNameC;60,1351
+void setNbOfDaqSct(72,1648
+void correctDaqTime(77,1712
+void finalCleanTable(160,4144
+void copyDaqHeads(203,4865
+double calculateAverageSlope(235,6122
+void timeSorter(269,6764
+
+src/dataConversion.c,195
+content_data_unit defineUnitAndValue(42,1393
+content_data_unit definePrefixAndUnit(92,2673
+double findPrefixConversionFactor(124,3591
+result_unit_conversion findUnitConversionFactor(154,4542
+
+src/dateConversion.c,28
+int dateConversion(37,1087
+
+src/deadTimeMgr.c,495
+static int doneOnce 33,834
+static u64 *pDeadTime 34,863
+static u16 *pcrist;35,923
+static int deadTimeMode;36,943
+static  int verbose 37,968
+static float ratioOfModeParalysable;38,993
+static int setDone 39,1030
+static int depthOfDeadTime 40,1058
+static int tnl=41,1107
+#define DT_TIME_CONV 53,1266
+void setDepthOfDeadTime(57,1332
+void setDeadTimeModeWithThis(72,1534
+void setDeadTimeMode(90,1912
+int getElementID(134,3006
+int deadTimeMgr(184,4020
+void destroyDeadTimeMgr(292,6408
+
+src/delayLineModule.c,348
+static u16 numberOfRsectors;32,794
+static int doneOnce 34,824
+static EVENT_RECORD *pERout;35,853
+static u16 *sctName 36,882
+static u64 *myDelayList 37,910
+static u64 myDelayBase 39,943
+static u8 myDelayBaseIsSet 40,971
+void setMyDelayBase(42,1008
+void initDelayList(48,1094
+EVENT_RECORD *delayLine(61,1360
+void destroyDelayLine(155,3672
+
+src/demakeid.c,22
+u16 *demakeid(34,922
+
+src/demakeRule.c,25
+void demakeRule(40,1056
+
+src/displayListOfFiles.c,32
+void displayListOfFiles(28,754
+
+src/dlist.c,139
+void dlist_init(63,1946
+void dlist_destroy(86,2894
+int dlist_ins_next(131,4753
+int dlist_ins_prev(218,8280
+int dlist_remove(308,11811
+
+src/dumpCountRateHeader.c,33
+void dumpCountRateHeader(31,822
+
+src/dumpCountRateRecord.c,33
+void dumpCountRateRecord(32,842
+
+src/dumpEventHeader.c,29
+void dumpEventHeader(31,809
+
+src/dumpEventRecord.c,29
+void dumpEventRecord(35,832
+
+src/dumpGateDigiHeader.c,32
+void dumpGateDigiHeader(32,820
+
+src/dumpGateDigiRecord.c,32
+void dumpGateDigiRecord(36,843
+
+src/dumpHead.c,23
+void dumpHead(40,1143
+
+src/dumpTheRecord.c,27
+void dumpTheRecord(34,875
+
+src/durationConversion.c,32
+int durationConversion(37,1107
+
+src/editLMF_cchInfo.c,64
+int getToEditLMF_cchData(37,1100
+int editLMF_cchData(117,3620
+
+src/extractCRpat.c,172
+static int allocCRHdone=33,858
+static struct LMF_ccs_countRateHeader *pCRH;34,885
+struct LMF_ccs_countRateHeader (*extractCRpat(35,930
+void destroyExtractCRpat(91,2173
+
+src/extractEpat.c,161
+static struct LMF_ccs_eventHeader *pEH;35,848
+static int allocEHdone 36,888
+struct LMF_ccs_eventHeader (*extractEpat(37,916
+void destroyExtractEpat(139,3411
+
+src/extractGDpat.c,171
+static int allocGDHdone=34,858
+static struct LMF_ccs_gateDigiHeader *pGDH;35,885
+struct LMF_ccs_gateDigiHeader (*extractGDpat(37,930
+void destroyExtractGDpat(138,2875
+
+src/fileNameManager.c,134
+int setFileName(37,921
+int get_extension_ccs_FileName(81,1926
+int get_extension_cch_FileName(115,2800
+int copyNewCCHfile(152,3974
+
+src/fillEHforAscii.c,53
+struct LMF_ccs_eventHeader (*fillEHforAscii(35,1026
+
+src/fillEHforGATE.c,52
+struct LMF_ccs_eventHeader (*fillEHforGATE(36,1017
+
+src/fillEncoH.c,36
+ENCODING_HEADER *fillEncoH(46,1552
+
+src/fillEncoHforAscii.c,44
+ENCODING_HEADER *fillEncoHforAscii(45,1567
+
+src/fillEncoHforGate.c,106
+void fillEncoHforGate(41,1445
+void inteligentRuleMaker(140,5135
+int findNumberOfBitsNeededFor(228,8337
+
+src/fillGDHforGATE.c,55
+struct LMF_ccs_gateDigiHeader (*fillGDHforGATE(30,752
+
+src/fillInCchDefaultUnitValue.c,39
+int fillInCchDefaultUnitValue(41,1263
+
+src/fillInFieldAndData.c,32
+int fillInFieldAndData(37,1047
+
+src/fillInStructScannerGeometry.c,41
+int fillInStructScannerGeometry(37,1115
+
+src/findvnn.c,42
+u16 findvnn(31,841
+u16 findvnn2(46,1067
+
+src/findXYZinLMFfile.c,752
+static struct LMF_ccs_eventHeader *pEH 44,1035
+static struct LMF_ccs_countRateHeader *pCRH 45,1082
+static struct LMF_ccs_gateDigiHeader *pGDH 46,1134
+static struct LMF_ccs_currentContent *pcC 47,1185
+static struct LMF_ccs_eventRecord *pER 48,1235
+static struct LMF_ccs_countRateRecord *pCRR 49,1282
+static int doneOnce 51,1335
+static u8 *pBufEvent,52,1364
+static u8 *pBufEvent,*pBufGateDigi,52,1364
+static u8 *pBufEvent,*pBufGateDigi,*pBufCountRate;52,1364
+static u16 Epattern=53,1453
+static u8 uni8=54,1548
+static int verboseLevel 55,1566
+calculOfEventPosition resultOfCalculOfEventPosition;57,1598
+int findXYZinLMFfile(59,1652
+void init_findXYZinLMFfile(170,5282
+FILE *open_CCS_file2(254,7865
+void destroy_findXYZinLMFfile(271,8192
+
+src/generatecC.c,129
+struct LMF_ccs_currentContent *pcC=28,749
+struct LMF_ccs_currentContent (*generatecC(30,791
+void generatecCDestructor(38,1037
+
+src/generateCRH.c,142
+static struct LMF_ccs_countRateHeader *pCRH 29,746
+struct LMF_ccs_countRateHeader (*generateCRH(31,799
+void generateCRHDestructor(158,3255
+
+src/generateCRR.c,141
+static struct LMF_ccs_countRateRecord *pCRR;30,749
+struct LMF_ccs_countRateRecord (*generateCRR(33,796
+void generateCRRDestructor(80,2294
+
+src/generateEH.c,244
+static struct LMF_ccs_eventHeader *pEH 30,740
+struct LMF_ccs_eventHeader (*generateEH(32,788
+    test 80,1840
+    test 147,3236
+    test=162,3566
+    test 177,3883
+    test 191,4131
+    test 209,4471
+void generateEHDestructor(228,4691
+
+src/generateEncoH.c,133
+static struct LMF_ccs_encodingHeader *pEncoH 41,1351
+ENCODING_HEADER *generateEncoH(44,1406
+void generateEncoHDestructor(137,6024
+
+src/generateER.c,102
+static EVENT_RECORD *pER;31,844
+EVENT_RECORD *generateER(33,871
+void generateERDestructor(138,4064
+
+src/generateGDH.c,139
+static struct LMF_ccs_gateDigiHeader *pGDH 30,746
+struct LMF_ccs_gateDigiHeader (*generateGDH(32,798
+void generateGDHDestructor(94,2075
+
+src/generateGDR.c,138
+static struct LMF_ccs_gateDigiRecord *pGDR;32,748
+struct LMF_ccs_gateDigiRecord(*generateGDR(36,795
+void generateGDRDestructor(94,2043
+
+src/geometrySelector.c,153
+static u16 nbOfSectors 35,848
+static u16 *sector 36,893
+u16 nb;37,936
+void setSectors(39,945
+void setModules(45,1070
+void geometrySelector(51,1195
+
+src/gestionbin.c,40
+int bindec 29,752
+void decbin 61,1183
+
+src/getAndSetOF.c,268
+static int gasoDoneOnce 38,853
+static int gastoDoneOnce 39,886
+static i8 outputFile[40,920
+static FILE *pfo 41,947
+int OF_is_Set(45,975
+FILE *getAndSetThisOutputFileName(51,1039
+FILE *getAndSetOutputFileName(68,1318
+void destroyGetAndSetOutputFileName(87,1595
+
+src/getDtID.c,141
+u16 *pcrist;6,77
+u16 getLayerID(8,111
+u16 getCrystalID(17,305
+u16 getSubmoduleID(25,500
+u16 getModuleID(35,699
+u16 getRsectorID(43,893
+
+src/getLMF_cchData.c,77
+contentLMFdata getLMF_cchNumericalValue(48,1697
+int getLMF_cchInfo(76,2623
+
+src/globalsParameters.c,465
+struct tm *structCchTimeDate;38,1029
+i8 fileName[40,1060
+i8 ccsFileName[42,1145
+i8 coinci_ccsFileName[43,1170
+i8 bis_ccsFileName[44,1202
+i8 cchFileName[47,1295
+i8 coinci_cchFileName[48,1320
+i8 bis_cchFileName[49,1352
+lmf_header *plist_lmf_header;53,1446
+lmf_header *first_lmf_header;55,1561
+LMF_cch *plist_cch=58,1669
+LMF_cch *first_cch_list;60,1769
+int last_cch_list=64,1948
+double ** ppShiftValuesList=68,2083
+int lastShiftValuesList_index 69,2117
+
+src/hardget.c,139
+i16 hardgeti16(37,966
+#define TRUE 44,1044
+#define FALSE 45,1059
+i16 hardgetyesno(71,1425
+#define TRUE 77,1487
+#define FALSE 78,1502
+
+src/help.c,60
+void helpForStackCutTime(28,679
+void helpExample1(50,1753
+
+src/intro.c,19
+void intro(30,753
+
+src/juelichDT.c,557
+static FILE *pf;73,1729
+static int doneOnce 74,1746
+static u64 erTime=75,1775
+static int pileUpAnalysis 76,1859
+static int nSinglesTreated=80,1896
+int verbose 82,1946
+static int tnm=83,1965
+static int nElement=84,2039
+struct bufferJuelichbufferJuelich86,2089
+static struct bufferJuelich **pBufJuelich;94,2207
+void setPileUpAnalysis(96,2251
+void setHighDepthDT(97,2307
+void setLowDepthDT(98,2353
+void setThreeSingleDT(99,2400
+void juelichDT(101,2458
+u8 sectorIsAlive(288,8788
+u8 moduleIsAlive(302,9057
+void destroyJuelichDeadTime(315,9268
+
+src/keepOnlyTrue.c,35
+EVENT_RECORD *keepOnlyTrue(36,875
+
+src/LMFbuilder.c,52
+void LMFbuilder(36,1030
+void CloseLMFfile(93,3409
+
+src/LMFCbuilder.c,92
+FILE *LMFCbuilder(35,833
+void CloseLMFCfile(91,3265
+void FreeLMFCBuilderCarrier(103,3444
+
+src/LMFcchReader.c,64
+int LMFcchReader(39,1039
+void LMFcchReaderDestructor(107,3235
+
+src/LMF_ccsReaderKit.c,51
+FILE *openCCSfile(33,804
+int closeCCSfile(44,960
+
+src/lmfFilesMerger.c,88
+static i8 newFileName[34,720
+void setNewLMFfileName(36,753
+void mergeLMFfiles(44,922
+
+src/LMFreader.c,730
+static struct LMF_ccs_encodingHeader *pEncoH;48,1296
+static struct LMF_ccs_eventHeader *pEH;49,1382
+static struct LMF_ccs_gateDigiHeader *pGDH;50,1468
+static struct LMF_ccs_countRateHeader *pCRH;51,1554
+static struct LMF_ccs_currentContent *pcC;52,1640
+static struct LMF_ccs_eventRecord *pER;53,1726
+static struct LMF_ccs_countRateRecord *pCRR;54,1812
+static u8 *pBufEvent,56,1899
+static u8 *pBufEvent,*pBufCountRate,56,1899
+static u8 *pBufEvent,*pBufCountRate,*pBufGateDigi;56,1899
+static int alreadyDonepcC 58,1978
+static int alreadyDoneBufE 59,2013
+static int alreadyDoneBufCR 60,2049
+static int alreadyDoneBufGD 61,2086
+static u8 FileCcsNotFound 62,2123
+int LMFreader(65,2203
+int LMFreaderDestructor(300,9587
+
+src/locateEventInLaboratory.c,187
+static int initializationDone=37,1093
+static double *first_pIntLengthLayers=38,1130
+calculOfEventPosition locateEventInLaboratory(40,1202
+void destroyScannerGeometryPointers(177,7662
+
+src/locateID.c,62
+generalSubstructureID locateID(38,1119
+u16 remakeID(61,1980
+
+src/locateRsectorInLaboratory.c,47
+coordinates locateRsectorInLaboratory(39,1118
+
+src/locateSubstructureInStructure.c,51
+coordinates locateSubstructureInStructure 45,1667
+
+src/makeCRpattern.c,26
+u16 makeCRpattern(40,990
+
+src/makeEpattern.c,25
+u16 makeEpattern(38,974
+
+src/makeGDpattern.c,26
+u16 makeGDpattern(39,972
+
+src/makeid.c,62
+#define FALSE 33,790
+#define TRUE 36,827
+u64 makeid(40,851
+
+src/makeRule.c,22
+u64 makeRule(47,1197
+
+src/modifyDateFormat.c,36
+struct tm modifyDateFormat(42,1064
+
+src/modifyDurationFormat.c,48
+content_data_unit modifyDurationFormat(39,1057
+
+src/modifySpeedFormat.c,45
+complex_unit_type modifySpeedFormat(40,1094
+
+src/modifySurfaceOrVolumeFormat.c,41
+i8 *modifySurfaceOrVolumeFormat(35,1074
+
+src/modifyTimeFormat.c,36
+struct tm modifyTimeFormat(39,1033
+
+src/monteCarloEngine.c,57
+float monteCarloEngine(31,746
+u16 monteCarloInt(41,895
+
+src/newFieldInCchFile.c,66
+int writeNewFieldInDataBase(36,1022
+int defineFieldType(60,1776
+
+src/numberConversion.c,30
+int numberConversion(37,1083
+
+src/oneList_BonusKit.c,763
+static int verboseLevel,34,829
+static int verboseLevel,coincidence_window;34,829
+static u64 stack_cut_time;36,874
+void initBonusKit(40,904
+EVENT_RECORD *newER(59,1295
+GATE_DIGI_RECORD (*newGDR(100,2301
+void freeGDR(122,2792
+void freeER(137,3086
+void copyER(158,3485
+void copyGDR(191,4670
+void print_list(206,5023
+LINK locateInList(252,6130
+LINK searchRecursive(280,6825
+LINK searchRecursiveFromHead(336,8253
+LINK searchRecursiveFromTail(408,9704
+LINK searchIterative(486,11470
+LINK searchIterativeFromTail(530,12503
+LINK searchIterativeFromHead(587,13587
+LINK bigStepUp(656,14927
+LINK bigStepDown(684,15224
+LINK upInList(722,15844
+LINK downInList(742,16077
+int tailCloser(773,16683
+int getOrderOfListSize(809,17663
+int insertOK(836,18208
+
+src/oneList_cleanKit.c,1517
+static int verboseLevel,32,763
+static int verboseLevel,coincidence_window 32,763
+static u64 stack_cut_time;33,808
+static int deadTimeForCoincidenceSortingMode 34,835
+static u64 deadTimeForCoincidenceSortingValue 35,885
+static int saveAutoCoinciBool 36,937
+static int rsectorNeighbourOrder 39,1093
+static int saveMultipleBool 48,1387
+static u32 multipleID 50,1560
+static struct LMF_ccs_currentContent *pcCC 51,1627
+static struct LMF_ccs_encodingHeader *pEncoHC;52,1678
+static struct LMF_ccs_eventHeader *pEHC;53,1758
+static struct LMF_ccs_gateDigiHeader *pGDHC;54,1838
+static struct LMF_ccs_countRateHeader *pCRHC;55,1922
+static EVENT_RECORD *pERC;56,2002
+static int nN;57,2063
+static int headDone=59,2167
+static u64 numberOfCoinci=61,2218
+static u64 numberOfSingleton=62,2266
+static u64 numberOfRejectedSinglesMultiples 63,2325
+static u64 arrayMultiples[64,2411
+static u64 nMultiplesWritten 65,2442
+static u64 nMulRandomCoincidences=67,2477
+static u64 nMulScatterCoincidences=68,2514
+static u64 nMulTrueCoincidences=69,2552
+static u64 nAutos 73,2590
+void initCleanKit(78,2631
+void initCoinciFile(121,3488
+EVENT_RECORD (*fillCoinciRecord(181,5571
+void destroyCoinciFile(386,11644
+int cleanListP1(448,13887
+u64 finalCleanListP1(817,22840
+void multipleCoincidenceMgr(988,27361
+void multipleCombinatCoincidenceMgr(1165,32827
+int checkForAutoCoinci(1310,36756
+void incrementNumberOfSingleton(1382,38049
+int diffRsector(1397,38350
+int diffRsectorER(1459,39801
+u64 diffTime(1520,41174
+
+src/oneList_CoincidenceSorter.c,963
+static int headDone 39,936
+static int verboseLevel=40,965
+static u64 stack_cut_time=41,1013
+static int verboseSet 43,1043
+static int coinciWinSet 44,1079
+static int sctSet 45,1115
+static int multipleBoolSet 46,1142
+static int autoCoinciBoolSet 47,1181
+static int rsectorNeighOrderSet=48,1223
+static int searchingModeSet 49,1266
+static int coincidenceDeadTimeValueSet 52,1308
+static u64 cdtv;53,1356
+static int coincidenceDeadTimeModeSet 55,1374
+static u64 sct;58,1428
+static LIST listP1;60,1445
+static int maxlistsize;62,1470
+void setAllCSparameters(67,1498
+void setSearchMode(158,3395
+int getAndSetCSsearchMode(169,3531
+u64 setCSdtValue(186,3849
+int setCSdtMode(209,4243
+int setCSverboseLevel(230,4667
+int setCSsaveMultipleBool(248,4965
+int setCSsaveAutoCoinciBool(276,5770
+int setCSrsectorNeighOrder(300,6603
+int setCScoincidencewindow(316,7097
+int setCSstackcuttime(349,8044
+int sortCoincidence(397,9299
+void destroyList(544,12865
+
+src/oneList_flowchart.c,497
+static int listInitDone 40,1164
+static int verboseLevel 41,1197
+static int verboseLevel ,coincidence_window;41,1197
+static u64 stack_cut_time;42,1242
+static u64 tEn=44,1270
+static ELEMENT *location;45,1325
+static EVENT_RECORD *pERin;46,1351
+static LIST *plistP1;47,1379
+void initFlowChart(51,1404
+void fcWAY_1Y(61,1600
+void fcWAY_2N(106,2307
+void fcWAY_2Y(128,2935
+void fcWAY_3N(165,3714
+void fcWAY_3Y(187,4101
+void fcWAY_6N(211,4679
+void fcWAY_6Y(236,5287
+void fcWAY_7Y(260,5651
+
+src/outputAsciiMgr.c,331
+calculOfEventPosition resultOfCalculOfEventPosition;31,714
+static u16 randomBool;34,785
+static int doneOnce 35,836
+static int fileOK 36,865
+static FILE *pfile 38,934
+u16 *pcrist;39,961
+static u64 timeMillis 41,975
+int j;42,1001
+GATE_DIGI_RECORD *pGDR;43,1008
+void outputAscii(45,1033
+void destroyOutputAsciiMgr(185,5639
+
+src/powerchar.c,20
+u16 poweri8(27,692
+
+src/powershort.c,21
+u16 poweri16(27,677
+
+src/prefixFactors.c,77
+i8 standard_prefix_list[37,992
+double standard_prefix_factors_list[40,1099
+
+src/processRecordCarrier.c,162
+calculOfEventPosition resultOfCalculOfEventPosition;45,1032
+static FILE *pf=46,1085
+static ENCODING_HEADER *pEncoHC 47,1107
+void processRecordCarrier(49,1148
+
+src/readHead.c,260
+static struct LMF_ccs_encodingHeader *pEncoH;37,1017
+static int allocEncoHdone 38,1063
+static u8 i=39,1098
+void destroyReadHead(40,1113
+i8 checkEventTag(49,1289
+i8 checkCountRateTag(62,1590
+i8 checkGateDigiTag(78,1895
+ENCODING_HEADER *readHead(98,2128
+
+src/read_LMF.c,840
+static FILE *pfCCS=39,1028
+static struct LMF_ccs_encodingHeader *pEncoH 41,1066
+static struct LMF_ccs_eventHeader *pEH 42,1119
+static struct LMF_ccs_countRateHeader *pCRH 43,1166
+static struct LMF_ccs_gateDigiHeader *pGDH 44,1218
+static struct LMF_ccs_currentContent *pcC 45,1269
+static struct LMF_ccs_eventRecord *pER 46,1319
+static struct LMF_ccs_countRateRecord *pCRR 47,1366
+static int doneOnce 49,1419
+static u8 *pBufEvent,50,1448
+static u8 *pBufEvent,*pBufCountRate,50,1448
+static u8 *pBufEvent,*pBufCountRate,*pBufGateDigi;50,1448
+static u16 Epattern=51,1526
+static u8 uni8=52,1621
+static int verboseLevel 53,1639
+calculOfEventPosition resultOfCalculOfEventPosition;55,1671
+int read_LMF(57,1725
+void init_read_LMF(184,5558
+FILE *open_CCS_file(264,8005
+FILE *open_CCH_file(281,8309
+void destroy_read_LMF(297,8612
+
+src/readOneCountRateRecord.c,200
+static int allocCRR 33,915
+static u16 ntR=34,951
+static struct LMF_ccs_countRateRecord *pCRR;35,981
+struct LMF_ccs_countRateRecord (*readOneCountRateRecord(39,1029
+void destroyCRRreader(195,4486
+
+src/readOneEventRecord.c,132
+static EVENT_RECORD *pER;34,824
+static int allocER 35,851
+EVENT_RECORD *readOneEventRecord(37,876
+void destroyERreader(252,6060
+
+src/readOneGateDigiRecord.c,221
+static struct LMF_ccs_gateDigiRecord *pGDR;33,906
+static int allocGDR 34,951
+u8 firstHalfOf(37,978
+u8 secondHalfOf(42,1087
+struct LMF_ccs_gateDigiRecord(*readOneGateDigiRecord(49,1198
+void destroyGDRreader(272,5916
+
+src/readTheLMFcchDataBase.c,35
+int readTheLMFcchDataBase(52,1526
+
+src/rotationSpeedConversion.c,37
+int rotationSpeedConversion(40,1156
+
+src/setGantryPosition.c,862
+#define TWO_PI 35,1020
+#define MILLI2PICO 36,1047
+static LIST listG;38,1072
+static u8 setMode 39,1091
+static u32 clkRatio 40,1114
+static u32 angularShift 43,1323
+static u32 axialShift 44,1352
+static u16 fixedGantryAngularPos 46,1380
+static u16 fixedGantryAxialPos 47,1418
+void setGantryPosMode(57,1906
+void setClkRatio(63,2049
+void setFixedGantryAngularPos(68,2120
+void setFixedGantryAxialPos(73,2243
+u16 roundM(78,2358
+u32 roundL(89,2481
+u32 roundPosL(100,2605
+void setPositionsShifts(113,2829
+void freeEV(119,3118
+int readPosFromFile(128,3377
+gantryEVENT * findAngularElement(182,4653
+gantryEVENT * findAxialElement(223,5516
+void GetQuadraticParams(267,6403
+void findPositions(284,7148
+void findAngularPosition(359,9631
+void findAxialPosition(432,11754
+EVENT_RECORD *setGantryPosition(488,13206
+void positionListDestructor(566,15020
+
+src/setLayersInfo.c,27
+int setLayersInfo(37,1068
+
+src/setShiftValues.c,120
+int chooseColumnIndex(47,1520
+int findModuloNumber(81,2246
+int findStartNumber(104,2874
+int setShiftValues(158,4708
+
+src/setSubstructuresValues.c,40
+double *setSubstructuresValues(55,2910
+
+src/shiftTime.c,131
+static u16 nbOfSct 4,37
+static u16 *Rsector 5,61
+static i64 *shiftedTime 6,89
+void setShiftedTime(8,122
+void shiftTime(15,305
+
+src/sortTime.c,323
+   static FILE *pf=42,1096
+static LIST timeList;44,1122
+static int listsize 45,1144
+static ELEMENT *location;48,1321
+void *data;49,1347
+EVENT_RECORD *pERin,50,1359
+EVENT_RECORD *pERin,*pERout;50,1359
+void setTimeListSize(53,1390
+void sortTime(60,1449
+int finishTimeSorting(156,4014
+void destroySortTime(183,4760
+
+src/speedConversion.c,29
+int speedConversion(40,1118
+
+src/stringConversion.c,30
+int stringConversion(39,1070
+
+src/surfaceConversion.c,31
+int surfaceConversion(38,1122
+
+src/testAngleDefaultUnit.c,37
+double testAngleDefaultUnit(36,1015
+
+src/testField.c,23
+int testField(40,1113
+
+src/testPitchVersusSize.c,33
+int testPitchVersusSize(38,1044
+
+src/testYourSystemForLMF.c,33
+int testYourSystemForLMF(31,731
+
+src/timeOrDurationConversion.c,28
+int timeConversion(41,1063
+
+src/timeValueManager.c,399
+#define FALSE 36,885
+#define TRUE 39,922
+static u64 timeStepFromCCH 41,944
+u64 getTimeStepFromCCH(43,978
+u64 getTimeOfThisEVENT(84,2273
+u64 getTimeOfThisCOINCI(95,2433
+u64 getTimeOfFlightOfThisCOINCI(110,2707
+u64 u8ToU64(118,2863
+double u8ToDouble(128,2955
+u8 *u64ToU8(137,3073
+u8 (*doubleToU8(144,3163
+u64 absullidiff(151,3263
+void time38bitShifter(161,3405
+u32 getStrongBit(171,3564
+
+src/treatEventRecord.c,30
+void treatEventRecord(36,811
+
+src/tripletAnalysis.c,249
+static int doneOnce 42,1097
+static EVENT_RECORD *pER1,43,1125
+static EVENT_RECORD *pER1,*pER2,43,1125
+static EVENT_RECORD *pER1,*pER2,*pER3;43,1125
+static FILE *pfAscii=44,1164
+u16 tripletAnalysis(46,1224
+void destroyTripletAnalysis(148,3234
+
+src/units.c,51
+i8 symbol_units_list[33,939
+int nb_units[53,1978
+
+src/unitsFactors.c,93
+double units_conversion_factors_list[34,939
+double units_conversion_constants_list[68,3018
+
+src/usefulOptions.c,191
+lmf_header*  allocOfMemoryForLMF_Header(46,1288
+LMF_cch* allocOfMemoryForLMF_cch(64,1719
+int openFile 74,1977
+void initialize(84,2189
+int copyFile(91,2326
+int modifyDataInFile(115,2917
+
+src/volumeConversion.c,30
+int volumeConversion(42,1149
+
+includes/constantsLMF_cch.h,2427
+#define _parameters_h30,800
+#define FALSE 34,842
+#define TRUE 35,858
+#define charNum 36,873
+#define HEADER_FILE 37,893
+#define DEFAULT_UNITS_FILE 38,931
+}lmf_header;lmf_header58,1374
+}VALUE;VALUE71,1744
+} LMF_cch;LMF_cch80,1895
+} content_data_unit;content_data_unit98,2478
+} contentLMFdata;contentLMFdata103,2561
+} result_unit_conversion;result_unit_conversion108,2632
+} complex_unit_type;complex_unit_type113,2727
+#define _default_units_h121,2835
+#define ENERGY_UNIT 128,3060
+#define DISTANCE_UNIT 129,3121
+#define DURATION_UNIT 130,3172
+#define TIME_UNIT 131,3224
+#define ACTIVITY_UNIT 132,3287
+#define SPEED_UNIT 133,3335
+#define ANGLE_UNIT 134,3394
+#define ROTATION_SPEED_UNIT 135,3450
+#define WEIGHT_UNIT 136,3521
+#define SURFACE_UNIT 137,3572
+#define VOLUME_UNIT 138,3625
+#define TEMPERATURE_UNIT 139,3678
+#define ELECTRIC_FIELD_UNIT 140,3727
+#define MAGNETIC_FIELD_UNIT 141,3770
+#define PRESSION_UNIT 142,3820
+#define _units_h149,3957
+#define _prefixFactors_h159,4115
+#define _unitsFactors_h169,4305
+#define _error_messages_h180,4530
+#define ERROR1 182,4557
+#define ERROR2 183,4612
+#define ERROR3 184,4758
+#define ERROR4 185,4842
+#define ERROR5 186,4928
+#define ERROR6 187,5026
+#define ERROR7 188,5372
+#define ERROR8 189,5775
+#define ERROR9 190,5928
+#define ERROR10 191,6082
+#define ERROR11 192,6234
+#define ERROR12 193,6591
+#define ERROR13 194,7069
+#define ERROR14 195,7378
+#define ERROR15 196,7683
+#define ERROR16 197,7999
+#define ERROR17 198,8305
+#define ERROR18 199,8607
+#define ERROR19 200,8912
+#define ERROR20 201,9216
+#define ERROR21 202,9537
+#define ERROR22 203,9846
+#define ERROR23 204,10171
+#define ERROR24 205,10485
+#define ERROR25 206,10666
+#define ERROR26 207,10735
+#define ERROR27 208,10936
+#define ERROR28 209,11033
+#define ERROR29 210,11109
+#define ERROR30 211,11193
+#define ERROR31 212,11299
+#define ERROR32 213,11383
+#define ERROR33 214,11524
+#define ERROR34 215,11681
+#define ERROR35 216,11762
+#define ERROR36 217,11822
+#define ERROR37 218,11911
+#define ERROR38 219,12401
+#define ERROR39 220,12989
+#define ERROR40 221,13460
+#define ERROR41 222,13578
+#define ERROR42 223,13700
+#define ERROR43 224,13824
+#define ERROR44 225,13928
+#define ERROR45 226,14035
+#define ERROR46 227,14141
+#define ERROR47 228,14260
+#define ERROR48 229,14368
+#define ERROR49 231,14712
+#define ERROR50 232,14854
+#define ERROR51 233,14997
+
+includes/constantsLMF_ccs.h,2445
+#define VERSION_LMF 35,820
+#define SUBVERSION_LMF 36,842
+#define FALSE 42,895
+#define TRUE 46,933
+#define MAXNEIGH 51,975
+#define _SETSCAN_H56,1071
+#define EVENT_RECORD_TAG 59,1127
+#define COUNT_RATE_RECORD_TAG 60,1156
+#define GATE_DIGI_RECORD_TAG 61,1190
+#define BITS_FOR_RSECTORS 64,1277
+#define BITS_FOR_MODULES 65,1315
+#define BITS_FOR_SUBMODULES 66,1344
+#define BITS_FOR_CRYSTALS 67,1376
+#define BITS_FOR_LAYERS 68,1406
+#define NUMBER_OF_RINGS 71,1488
+#define NUMBER_OF_SECTORS 72,1516
+#define AXIAL_NUMBER_OF_MODULES 73,1546
+#define TANGENTIAL_NUMBER_OF_MODULES 74,1582
+#define AXIAL_NUMBER_OF_SUBMODULES 75,1623
+#define TANGENTIAL_NUMBER_OF_SUBMODULES 76,1662
+#define AXIAL_NUMBER_OF_CRYSTALS 77,1706
+#define TANGENTIAL_NUMBER_OF_CRYSTALS 78,1743
+#define AXIAL_NUMBER_OF_LAYERS 79,1785
+#define RADIAL_NUMBER_OF_LAYERS 80,1820
+#define _NAME_FILES84,1911
+#define COINCIDENCE_FILE 85,1931
+#define REWRITE_FILE 86,1978
+#define WRITE_FILE 87,2018
+#define WRITE_FILE2 88,2054
+#define _BUILD_REAL94,2172
+#define ACTIVITY_FOR_TEST 95,2192
+#define DEAD_TIME_FOR_TEST 96,2237
+#define READING_TIME_FOR_TEST 97,2280
+#define DETECTOR_YIELD 98,2312
+#define _COINCIDENCE_SORTER_CONDTANT105,2431
+#define NULL_UP 106,2468
+#define NULL_DOWN 107,2489
+#define COINCIDENCE_WINDOW 108,2514
+#define STACK_CUT_TIME 109,2562
+#define CS_VERBOSE_LEVEL 110,2612
+#define SAVE_MULTIPLE_BOOL 111,2641
+#define SAVE_AUTO_COINCI_BOOL 112,2672
+#define HIGH_ACTIVITY_CUT_NUMBER 113,2706
+#define SIZE_FOR_CRYSTAL 114,2774
+#define SIZE_FOR_ENERGY 115,2803
+#define CONVERT_TIME_COINCI 116,2831
+#define CONVERT_TIME_OF_FLIGHT 117,2900
+#define DEFAULT_DELAY_BY_RSECYOR 118,2939
+#define CPUFPGA_SHIFT 125,3085
+#define FULL_FPGA_DYNAMIC 126,3187
+#define CLK2NSSHIFT	127,3276
+#define GATE_LMF_TIME_STEP_PICOS 130,3416
+#define ASCII2LMF_TIME_STEP_PICOS 131,3451
+#define GATE_LMF_ENERGY_STEP_KEV 139,3533
+#define ASCII2LMF_ENERGY_STEP_KEV 140,3568
+#define BIT_DEF148,3632
+#define MAX16BIT 149,3648
+#define BIT1 150,3673
+#define BIT2 151,3690
+#define BIT3 152,3707
+#define BIT4 153,3724
+#define BIT5 154,3741
+#define BIT6 155,3759
+#define BIT7 156,3777
+#define BIT7ET8 157,3795
+#define BIT8 158,3817
+#define BIT9 159,3836
+#define BIT10 160,3855
+#define BIT10ET11 161,3875
+#define BIT11 162,3900
+#define BIT12 163,3921
+#define BIT13 164,3942
+#define BIT14 165,3963
+#define BIT15 166,3984
+#define BIT16 167,4006
+
+includes/constantsLocateEvents.h,668
+#define _constants_structuresGeometry_h31,920
+} LMF_cch_scannerGeometry;LMF_cch_scannerGeometry70,2407
+}generalSubstructureID;generalSubstructureID76,2620
+}coordinates;coordinates85,3086
+}calculOfEventPosition;calculOfEventPosition92,3299
+#define _error_messages_geometry_h100,3491
+#define ERROR_GEOMETRY1 102,3527
+#define ERROR_GEOMETRY2 103,3644
+#define ERROR_GEOMETRY3 104,3743
+#define ERROR_GEOMETRY4 105,3928
+#define ERROR_GEOMETRY5 106,4032
+#define ERROR_GEOMETRY6 107,4151
+#define ERROR_GEOMETRY7 108,4241
+#define ERROR_GEOMETRY8 109,4341
+#define ERROR_GEOMETRY9 110,4446
+#define ERROR_GEOMETRY10 111,4552
+#define ERROR_GEOMETRY11 112,4677
+
+includes/dlist.h,524
+#define DLIST_H45,1472
+typedef struct DListElmt_ DListElmt_55,1922
+} ELEMENT;ELEMENT62,2080
+typedef ELEMENT *LINK;LINK64,2092
+typedef struct DList_ DList_72,2512
+} LIST;LIST82,2721
+#define dlist_size(dlist_size104,3470
+#define dlist_head(dlist_head106,3511
+#define dlist_tail(dlist_tail108,3552
+#define dlist_is_head(dlist_is_head110,3593
+#define dlist_is_tail(dlist_is_tail112,3659
+#define dlist_data(dlist_data114,3725
+#define dlist_next(dlist_next116,3772
+#define dlist_prev(dlist_prev118,3819
+
+includes/lmf_format.h,329
+#define __FORMAT__FOR__LMF__22,503
+typedef char i8;i823,532
+typedef unsigned char u8;u824,549
+typedef short i16;i1625,575
+typedef unsigned short u16;u1626,594
+typedef long i32;i3227,622
+typedef unsigned long u32;u3228,640
+typedef unsigned long long int u64;u6429,667
+typedef long long int          i64;i6430,703
+
+includes/lmf_gate.h,0
+
+includes/lmf.h,118
+#define _LMF_CCS_H 34,750
+#define __LMFBI_H37,789
+#define __SYMBOLIC_CONSTAN_H42,921
+#define __PROTOTYPE_H49,1223
+
+includes/prototypesLMF_cch.h,984
+#define _LMFcchReader_h86,5281
+#define _LMFcchReaderDestructor_h96,5476
+#define _usefulOptions_h112,6013
+#define _fileNameManager_h126,6531
+#define _readTheLMFcchDataBase_h139,6919
+#define _fillInFieldAndData_h148,7110
+#define _newFieldInCchFile_h160,7421
+#define _testField_h171,7724
+#define _correctUnknownField_h181,7922
+#define _dataConversion_h202,8894
+#define _fillInCchDefaultUnitValue_h235,9897
+#define _getLMF_cchData_h244,10149
+#define _editLMF_cchInfo_h263,10874
+#define _stringConversion_h275,11151
+#define _numberConversion_h285,11376
+#define _dateConversion_h295,11595
+#define _durationConversion_h304,11812
+#define _timeConversion_h314,12035
+#define _surfaceConversion_h324,12285
+#define _volumeConversion_h334,12550
+#define _speedConversion_h344,12810
+#define _rotationSpeedConversion_h354,13093
+#define _setShiftValues_h363,13280
+#define _chooseColumnIndex_h372,13502
+#define _findModuloNumber_h381,13723
+#define _findStartNumber_h390,13949
+
+includes/prototypesLMF_ccs.h,32
+#define _PROTOTYPE_LMF_H35,778
+
+includes/prototypesLocateEvents.h,421
+#define _locateEventInlaboratory_h47,2203
+#define _fillInStructScannerGeometry_h59,2510
+#define _setLayersInfo_h69,2764
+#define _setSubstructuresValues_h86,3556
+#define _testPitchVersusSize_h95,3835
+#define _testAngleDefaultUnit_h106,4130
+#define _locateID_h115,4330
+#define _locateSubstructureInStructure_h131,4815
+#define _locateRsectorInLaboratory_h144,5174
+#define _destroyScannerGeometryPointers_h161,5601
+
+includes/structure_LMF.h,1553
+struct LMF_ccs_scanEncodingID LMF_ccs_scanEncodingID41,1275
+struct LMF_ccs_scannerTopologyLMF_ccs_scannerTopology57,2158
+struct LMF_ccs_scanContentLMF_ccs_scanContent87,3475
+struct LMF_ccs_encodingHeaderLMF_ccs_encodingHeader103,4124
+typedef struct LMF_ccs_encodingHeader ENCODING_HEADER;ENCODING_HEADER110,4419
+struct LMF_ccs_eventHeaderLMF_ccs_eventHeader114,4579
+typedef struct LMF_ccs_eventHeader EVENT_HEADER;EVENT_HEADER129,5240
+struct LMF_ccs_countRateHeaderLMF_ccs_countRateHeader133,5402
+typedef struct LMF_ccs_countRateHeader COUNT_RATE_HEADER;COUNT_RATE_HEADER142,5813
+struct LMF_ccs_gateDigiHeaderLMF_ccs_gateDigiHeader160,6238
+  typedef struct LMF_ccs_gateDigiHeader GATE_DIGI_HEADER;GATE_DIGI_HEADER172,6579
+struct LMF_ccs_currentContentLMF_ccs_currentContent178,6747
+  typedef struct LMF_ccs_currentContent CURRENT_CONTENT;CURRENT_CONTENT183,6850
+struct LMF_ccs_XYZposLMF_ccs_XYZpos190,6995
+struct LMF_ccs_gateDigiRecordLMF_ccs_gateDigiRecord197,7050
+typedef struct LMF_ccs_gateDigiRecord GATE_DIGI_RECORD;GATE_DIGI_RECORD212,7379
+struct LMF_ccs_eventRecordLMF_ccs_eventRecord217,7483
+typedef struct LMF_ccs_eventRecord EVENT_RECORD;EVENT_RECORD231,8226
+struct LMF_ccs_countRateRecordLMF_ccs_countRateRecord238,8412
+typedef struct LMF_ccs_countRateRecord COUNT_RATE_RECORD;COUNT_RATE_RECORD251,8905
+}gantryEVENT;gantryEVENT259,9122
+} u16vsu8;u16vsu8266,9233
+} u32vsu8;u32vsu8271,9283
+} u64vsu8;u64vsu8276,9333
+  }w64vsw32;w64vsw32281,9389
+} u64vsu16;u64vsu16286,9443
+}t32;t32291,9503

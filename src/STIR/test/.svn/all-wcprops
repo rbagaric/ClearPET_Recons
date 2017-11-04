@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test
+END
+test_VAXfloat.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_VAXfloat.cxx
+END
+test_IndexRange.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_IndexRange.cxx
+END
+test_ArrayFilter.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_ArrayFilter.cxx
+END
+test.mk
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test.mk
+END
+test_interpolate.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_interpolate.cxx
+END
+test_Scanner.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_Scanner.cxx
+END
+test_stir_math.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_stir_math.cxx
+END
+run_tests.bat
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/run_tests.bat
+END
+test_ArcCorrection.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_ArcCorrection.cxx
+END
+test_ByteOrder.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_ByteOrder.cxx
+END
+test_VectorWithOffset.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_VectorWithOffset.cxx
+END
+test_display.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_display.cxx
+END
+test_filename_functions.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_filename_functions.cxx
+END
+test_OutputFileFormat.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_OutputFileFormat.cxx
+END
+test_linear_regression.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_linear_regression.cxx
+END
+test_coordinates.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_coordinates.cxx
+END
+test_ROIs.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_ROIs.cxx
+END
+test_VoxelsOnCartesianGrid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_VoxelsOnCartesianGrid.cxx
+END
+test_convert_array.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_convert_array.cxx
+END
+test_Array.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_Array.cxx
+END
+test_proj_data_info.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/test_proj_data_info.cxx
+END

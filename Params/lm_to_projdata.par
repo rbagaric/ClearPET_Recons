@@ -1,0 +1,20 @@
+lm_to_projdata Parameters:=
+
+  input file := Coincidences
+  output filename prefix := projdata_coinci
+
+  template_projdata := seg_31.hs
+
+  maximum absolute segment number to process := 
+
+  frame_definition file :=
+  num_events_to_store := 1000000000
+
+  store prompts :=
+  store delayeds := 
+
+  List event coordinates :=
+
+  num_segments_in_memory :=
+
+End := 

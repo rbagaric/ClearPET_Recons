@@ -1,0 +1,158 @@
+//
+// $Id: FBP2DReconstruction.h,v 1.9 2005/02/17 21:22:34 kris Exp $
+//
+#ifndef __stir_analytic_FBP2D_FBP2DReconstruction_H__
+#define __stir_analytic_FBP2D_FBP2DReconstruction_H__
+/*
+    Copyright (C) 2000 PARAPET partners
+    Copyright (C) 2000- $Date: 2005/02/17 21:22:34 $, Hammersmith Imanet Ltd
+    This file is part of STIR.
+
+    This file is free software; you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation; either version 2.1 of the License, or
+    (at your option) any later version.
+
+    This file is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    See STIR/LICENSE.txt for details
+*/
+/*!
+  \file 
+  \ingroup FBP2D
+ 
+  \brief declares the FBP2DReconstruction class
+
+  \author Kris Thielemans
+  \author PARAPET project
+
+  $Date: 2005/02/17 21:22:34 $
+  $Revision: 1.9 $
+*/
+
+#include "stir/recon_buildblock/Reconstruction.h"
+#include "stir/recon_buildblock/BackProjectorByBin.h"
+#include <string>
+
+#ifndef STIR_NO_NAMESPACES
+using std::string;
+#endif
+
+START_NAMESPACE_STIR
+
+template <int num_dimensions, typename elemT> class DiscretisedDensity;
+template <typename T> class shared_ptr;
+class Succeeded;
+class ProjData;
+
+/*! \ingroup FBP2D
+ \brief Reconstruction class for 2D Filtered Back Projection
+
+  \par Parameters
+  \verbatim
+fbp2dparameters :=
+
+input file := input.hs
+output filename prefix := output
+
+; output image parameters
+; zoom defaults to 1
+zoom := 1
+; image size defaults to whole FOV
+xy output image size (in pixels) := 180
+
+; can be used to call SSRB first
+; default means: call SSRB only if no axial compression is already present
+;num segments to combine with ssrb := -1
+
+; filter parameters, default to pure ramp
+alpha parameter for ramp filter := 1
+cut-off for ramp filter (in cycles) := 0.5
+
+; allow less padding. DO NOT USE 
+; (unless you're sure that the object occupies only half the FOV)
+;Transaxial extension for FFT:=1
+
+; back projector that could be used (defaults to interpolating backprojector)
+; Back projector type:= some type
+
+; display data during processing for debugging purposes
+; Display level := 0
+end := 
+  \endverbatim
+ 
+*/
+class FBP2DReconstruction : public Reconstruction
+{
+
+public:
+  //! Default constructor (calls set_defaults())
+  FBP2DReconstruction (); 
+  /*!
+    \brief Constructor, initialises everything from parameter file, or (when
+    parameter_filename == "") by calling ask_parameters().
+  */
+  explicit 
+    FBP2DReconstruction(const string& parameter_filename);
+
+  FBP2DReconstruction(const shared_ptr<ProjData>&, 
+		      const double alpha_ramp=1.,
+		      const double fc_ramp=.5,
+		      const int pad_in_s=2,
+		      const int num_segments_to_combine=-1
+		      );
+  
+  Succeeded reconstruct(shared_ptr<DiscretisedDensity<3,float> > const & target_image_ptr);
+  
+   //! Reconstruction that gets target_image info from the parameters
+   /*! sadly have to repeat that here, as Reconstruct::reconstruct() gets hidden by the 
+       1-argument version.
+       */
+  virtual Succeeded reconstruct();
+
+  virtual string method_info() const;
+
+  virtual void ask_parameters();
+
+ protected: // make parameters protected such that doc shows always up in doxygen
+  // parameters used for parsing
+
+  //! Ramp filter: Alpha value
+  double alpha_ramp;
+  //! Ramp filter: Cut off frequency
+  double fc_ramp;  
+  //! amount of padding for the filter (has to be 0,1 or 2)
+  int pad_in_s;
+  //! number of segments to combine (with SSRB) before starting 2D reconstruction
+  /*! if -1, a value is chosen depending on the axial compression.
+      If there is no axial compression, num_segments_to_combine is
+      effectively set to 3, otherwise it is set to 1.
+      \see SSRB
+  */
+  int num_segments_to_combine;
+  //! potentially display data
+  /*! allowed values: \c display_level=0 (no display), 1 (only final image), 
+      2 (filtered-viewgrams). Defaults to 0.
+   */
+  int display_level;
+ private:
+  shared_ptr<BackProjectorByBin> back_projector_sptr;
+
+  virtual void set_defaults();
+  virtual void initialise_keymap();
+  virtual bool post_processing(); 
+  bool post_processing_only_FBP2D_parameters();
+
+};
+
+
+
+
+END_NAMESPACE_STIR
+
+    
+#endif
+

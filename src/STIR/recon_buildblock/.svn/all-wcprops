@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/16/trunk/src/STIR/recon_buildblock
+END
+DataSymmetriesForBins.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/DataSymmetriesForBins.cxx
+END
+BinNormalisationFromECAT7.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BinNormalisationFromECAT7.cxx
+END
+Reconstruction.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/Reconstruction.cxx
+END
+ProjMatrixByBin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjMatrixByBin.cxx
+END
+BackProjectorByBinUsingInterpolation_linear.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BackProjectorByBinUsingInterpolation_linear.cxx
+END
+DataSymmetriesForBins_PET_CartesianGrid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/DataSymmetriesForBins_PET_CartesianGrid.cxx
+END
+BackProjectorByBinUsingProjMatrixByBin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BackProjectorByBinUsingProjMatrixByBin.cxx
+END
+ProjMatrixElemsForOneDensel.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjMatrixElemsForOneDensel.cxx
+END
+ForwardProjectorByBinUsingProjMatrixByBin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ForwardProjectorByBinUsingProjMatrixByBin.cxx
+END
+GeneralisedPrior.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/GeneralisedPrior.cxx
+END
+recon_buildblock_registries.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/recon_buildblock_registries.cxx
+END
+RayTraceVoxelsOnCartesianGrid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/RayTraceVoxelsOnCartesianGrid.cxx
+END
+TrivialDataSymmetriesForBins.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/TrivialDataSymmetriesForBins.cxx
+END
+ForwardProjectorByBinUsingRayTracing.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ForwardProjectorByBinUsingRayTracing.cxx
+END
+SymmetryOperation.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/SymmetryOperation.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/lib.mk
+END
+BackProjectorByBin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BackProjectorByBin.cxx
+END
+ProjectorByBinPairUsingSeparateProjectors.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjectorByBinPairUsingSeparateProjectors.cxx
+END
+ProjMatrixByBinUsingRayTracing.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjMatrixByBinUsingRayTracing.cxx
+END
+DataSymmetriesForDensels.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/DataSymmetriesForDensels.cxx
+END
+ForwardProjectorByBin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ForwardProjectorByBin.cxx
+END
+ProjectorByBinPairUsingProjMatrixByBin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjectorByBinPairUsingProjMatrixByBin.cxx
+END
+BackProjectorByBinUsingInterpolation_piecewise_linear.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BackProjectorByBinUsingInterpolation_piecewise_linear.cxx
+END
+BinNormalisationFromProjData.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/ClearPET_Recons/!svn/ver/16/trunk/src/STIR/recon_buildblock/BinNormalisationFromProjData.cxx
+END
+RegisteredObject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/RegisteredObject.cxx
+END
+ChainedBinNormalisation.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ChainedBinNormalisation.cxx
+END
+ProjMatrixElemsForOneBin.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjMatrixElemsForOneBin.cxx
+END
+BackProjectorByBinUsingInterpolation.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BackProjectorByBinUsingInterpolation.cxx
+END
+distributable.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/distributable.cxx
+END
+IterativeReconstruction.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/IterativeReconstruction.cxx
+END
+ProjDataRebinning.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjDataRebinning.cxx
+END
+TrivialBinNormalisation.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/TrivialBinNormalisation.cxx
+END
+SymmetryOperations_PET_CartesianGrid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/SymmetryOperations_PET_CartesianGrid.cxx
+END
+FilterRootPrior.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/FilterRootPrior.cxx
+END
+ProjectorByBinPair.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ProjectorByBinPair.cxx
+END
+BinNormalisation.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BinNormalisation.cxx
+END
+ForwardProjectorByBinUsingRayTracing_Siddon.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/ForwardProjectorByBinUsingRayTracing_Siddon.cxx
+END
+BackProjectorByBinUsingInterpolation_3DCho.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BackProjectorByBinUsingInterpolation_3DCho.cxx
+END
+BinNormalisationFromAttenuationImage.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/recon_buildblock/BinNormalisationFromAttenuationImage.cxx
+END

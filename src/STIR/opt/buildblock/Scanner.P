@@ -1,0 +1,55 @@
+opt/buildblock/Scanner.o: buildblock/Scanner.cxx include/stir/Scanner.h \
+ include/stir/common.h include/boost/config.hpp \
+ include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/stir/DetectionPosition.h include/stir/DetectionPosition.inl \
+ include/stir/Scanner.inl include/stir/utilities.h \
+ include/stir/utilities.inl include/stir/Succeeded.h \
+ include/stir/interfile_keyword_functions.h
+
+include/stir/Scanner.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/stir/DetectionPosition.h:
+
+include/stir/DetectionPosition.inl:
+
+include/stir/Scanner.inl:
+
+include/stir/utilities.h:
+
+include/stir/utilities.inl:
+
+include/stir/Succeeded.h:
+
+include/stir/interfile_keyword_functions.h:

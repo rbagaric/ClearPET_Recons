@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape
+END
+DiscretisedShape3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/DiscretisedShape3D.h
+END
+EllipsoidalCylinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/EllipsoidalCylinder.h
+END
+Shape3DWithOrientation.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/Shape3DWithOrientation.h
+END
+Shape3D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/Shape3D.inl
+END
+CombinedShape3D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/CombinedShape3D.inl
+END
+Ellipsoid.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/Ellipsoid.h
+END
+DiscretisedShape3D.inl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/DiscretisedShape3D.inl
+END
+EllipsoidalCylinder.inl
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/EllipsoidalCylinder.inl
+END
+Shape3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/Shape3D.h
+END
+CombinedShape3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/include/stir/Shape/CombinedShape3D.h
+END

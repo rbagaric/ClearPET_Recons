@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/input
+END
+test_InterfileOutputFileFormat.in
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/input/test_InterfileOutputFileFormat.in
+END
+test_ECAT6OutputFileFormat.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/input/test_ECAT6OutputFileFormat.in
+END
+test_ECAT7OutputFileFormat.in
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/input/test_ECAT7OutputFileFormat.in
+END
+test_VAXfloat.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/input/test_VAXfloat.in
+END
+test_InterfileOutputFileFormat_short.in
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/input/test_InterfileOutputFileFormat_short.in
+END
+test_linear_regression.in
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/test/input/test_linear_regression.in
+END

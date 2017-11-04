@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples
+END
+lm_to_projdata.par
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/lm_to_projdata.par
+END
+FBP3DRP.par
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/FBP3DRP.par
+END
+OSMAPOSL_osem_with_interfiltering.par
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/OSMAPOSL_osem_with_interfiltering.par
+END
+OSMAPOSL_emml_with_projmatrix.par
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/OSMAPOSL_emml_with_projmatrix.par
+END
+postfilter_median3x3x3.par
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/postfilter_median3x3x3.par
+END
+list_ROI_values.par
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/list_ROI_values.par
+END
+OSMAPOSL_emml_with_projector_pair.par
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/OSMAPOSL_emml_with_projector_pair.par
+END
+correct_projdata.par
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/correct_projdata.par
+END
+postfilter_Metz.par
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/postfilter_Metz.par
+END
+OSMAPOSL_MRP.par
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/OSMAPOSL_MRP.par
+END
+fore.par
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/fore.par
+END
+generate_image.par
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/generate_image.par
+END
+FBP2D.par
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/samples/FBP2D.par
+END

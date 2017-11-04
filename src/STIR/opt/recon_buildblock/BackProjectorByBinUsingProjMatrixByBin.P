@@ -1,0 +1,224 @@
+opt/recon_buildblock/BackProjectorByBinUsingProjMatrixByBin.o: \
+ recon_buildblock/BackProjectorByBinUsingProjMatrixByBin.cxx \
+ include/stir/recon_buildblock/BackProjectorByBinUsingProjMatrixByBin.h \
+ include/stir/recon_buildblock/ProjMatrixByBin.h \
+ include/stir/RegisteredObject.h include/stir/Object.h \
+ include/stir/common.h include/boost/config.hpp \
+ include/boost/config/user.hpp \
+ include/boost/config/select_compiler_config.hpp \
+ include/boost/config/compiler/gcc.hpp \
+ include/boost/config/select_stdlib_config.hpp \
+ include/boost/config/no_tr1/utility.hpp \
+ include/boost/config/stdlib/libstdcpp3.hpp \
+ include/boost/config/select_platform_config.hpp \
+ include/boost/config/platform/linux.hpp \
+ include/boost/config/posix_features.hpp include/boost/config/suffix.hpp \
+ include/stir/FactoryRegistry.h include/stir/FactoryRegistry.inl \
+ include/stir/interfile_keyword_functions.h \
+ include/stir/RegisteredObject.inl include/stir/utilities.h \
+ include/stir/utilities.inl include/stir/ParsingObject.h \
+ include/stir/KeyParser.h include/stir/shared_ptr.h \
+ include/stir/shared_ptr.inl include/stir/Array.h \
+ include/stir/NumericVectorWithOffset.h include/stir/VectorWithOffset.h \
+ include/stir/VectorWithOffset.inl \
+ include/stir/NumericVectorWithOffset.inl include/stir/ByteOrder.h \
+ include/stir/ByteOrder.inl include/stir/IndexRange.h \
+ include/stir/BasicCoordinate.h include/boost/operators.hpp \
+ include/boost/iterator.hpp include/boost/detail/workaround.hpp \
+ include/stir/BasicCoordinate.inl include/stir/detail/test_if_1d.h \
+ include/stir/IndexRange.inl include/stir/FullArrayIterator.h \
+ include/stir/FullArrayIterator.inl include/stir/Array.inl \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBin.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.h \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.inl \
+ include/stir/Coordinate3D.h include/stir/Coordinate3D.inl \
+ include/stir/Bin.h include/stir/Bin.inl \
+ include/stir/recon_buildblock/ProjMatrixElemsForOneBin.inl \
+ include/stir/recon_buildblock/DataSymmetriesForBins.h \
+ include/stir/DataSymmetriesForViewSegmentNumbers.h \
+ include/stir/ProjDataInfo.h include/stir/Scanner.h \
+ include/stir/DetectionPosition.h include/stir/DetectionPosition.inl \
+ include/stir/Scanner.inl include/stir/ProjDataInfo.inl \
+ include/stir/Coordinate2D.h include/stir/Coordinate2D.inl \
+ include/stir/recon_buildblock/DataSymmetriesForBins.inl \
+ include/stir/TimedObject.h include/stir/CPUTimer.h include/stir/Timer.h \
+ include/stir/Timer.inl include/stir/CPUTimer.inl \
+ include/stir/TimedObject.inl \
+ include/stir/recon_buildblock/ProjMatrixByBin.inl \
+ include/stir/Succeeded.h \
+ include/stir/recon_buildblock/SymmetryOperation.h \
+ include/stir/recon_buildblock/BackProjectorByBin.h \
+ include/stir/RegisteredParsingObject.h \
+ include/stir/RegisteredParsingObject.inl include/stir/Viewgram.h \
+ include/stir/Viewgram.inl include/stir/IndexRange2D.h \
+ include/stir/IndexRange2D.inl include/stir/RelatedViewgrams.h \
+ include/stir/RelatedViewgrams.inl include/stir/ViewSegmentNumbers.h \
+ include/stir/ViewSegmentNumbers.inl include/stir/is_null_ptr.h
+
+include/stir/recon_buildblock/BackProjectorByBinUsingProjMatrixByBin.h:
+
+include/stir/recon_buildblock/ProjMatrixByBin.h:
+
+include/stir/RegisteredObject.h:
+
+include/stir/Object.h:
+
+include/stir/common.h:
+
+include/boost/config.hpp:
+
+include/boost/config/user.hpp:
+
+include/boost/config/select_compiler_config.hpp:
+
+include/boost/config/compiler/gcc.hpp:
+
+include/boost/config/select_stdlib_config.hpp:
+
+include/boost/config/no_tr1/utility.hpp:
+
+include/boost/config/stdlib/libstdcpp3.hpp:
+
+include/boost/config/select_platform_config.hpp:
+
+include/boost/config/platform/linux.hpp:
+
+include/boost/config/posix_features.hpp:
+
+include/boost/config/suffix.hpp:
+
+include/stir/FactoryRegistry.h:
+
+include/stir/FactoryRegistry.inl:
+
+include/stir/interfile_keyword_functions.h:
+
+include/stir/RegisteredObject.inl:
+
+include/stir/utilities.h:
+
+include/stir/utilities.inl:
+
+include/stir/ParsingObject.h:
+
+include/stir/KeyParser.h:
+
+include/stir/shared_ptr.h:
+
+include/stir/shared_ptr.inl:
+
+include/stir/Array.h:
+
+include/stir/NumericVectorWithOffset.h:
+
+include/stir/VectorWithOffset.h:
+
+include/stir/VectorWithOffset.inl:
+
+include/stir/NumericVectorWithOffset.inl:
+
+include/stir/ByteOrder.h:
+
+include/stir/ByteOrder.inl:
+
+include/stir/IndexRange.h:
+
+include/stir/BasicCoordinate.h:
+
+include/boost/operators.hpp:
+
+include/boost/iterator.hpp:
+
+include/boost/detail/workaround.hpp:
+
+include/stir/BasicCoordinate.inl:
+
+include/stir/detail/test_if_1d.h:
+
+include/stir/IndexRange.inl:
+
+include/stir/FullArrayIterator.h:
+
+include/stir/FullArrayIterator.inl:
+
+include/stir/Array.inl:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBin.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.h:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBinValue.inl:
+
+include/stir/Coordinate3D.h:
+
+include/stir/Coordinate3D.inl:
+
+include/stir/Bin.h:
+
+include/stir/Bin.inl:
+
+include/stir/recon_buildblock/ProjMatrixElemsForOneBin.inl:
+
+include/stir/recon_buildblock/DataSymmetriesForBins.h:
+
+include/stir/DataSymmetriesForViewSegmentNumbers.h:
+
+include/stir/ProjDataInfo.h:
+
+include/stir/Scanner.h:
+
+include/stir/DetectionPosition.h:
+
+include/stir/DetectionPosition.inl:
+
+include/stir/Scanner.inl:
+
+include/stir/ProjDataInfo.inl:
+
+include/stir/Coordinate2D.h:
+
+include/stir/Coordinate2D.inl:
+
+include/stir/recon_buildblock/DataSymmetriesForBins.inl:
+
+include/stir/TimedObject.h:
+
+include/stir/CPUTimer.h:
+
+include/stir/Timer.h:
+
+include/stir/Timer.inl:
+
+include/stir/CPUTimer.inl:
+
+include/stir/TimedObject.inl:
+
+include/stir/recon_buildblock/ProjMatrixByBin.inl:
+
+include/stir/Succeeded.h:
+
+include/stir/recon_buildblock/SymmetryOperation.h:
+
+include/stir/recon_buildblock/BackProjectorByBin.h:
+
+include/stir/RegisteredParsingObject.h:
+
+include/stir/RegisteredParsingObject.inl:
+
+include/stir/Viewgram.h:
+
+include/stir/Viewgram.inl:
+
+include/stir/IndexRange2D.h:
+
+include/stir/IndexRange2D.inl:
+
+include/stir/RelatedViewgrams.h:
+
+include/stir/RelatedViewgrams.inl:
+
+include/stir/ViewSegmentNumbers.h:
+
+include/stir/ViewSegmentNumbers.inl:
+
+include/stir/is_null_ptr.h:

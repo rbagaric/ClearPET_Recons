@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/eval_buildblock
+END
+compute_ROI_values.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/eval_buildblock/compute_ROI_values.cxx
+END
+ROIValues.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/eval_buildblock/ROIValues.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/eval_buildblock/lib.mk
+END

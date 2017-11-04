@@ -1,0 +1,803 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src
+END
+coincidenceAnalyser.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/coincidenceAnalyser.c
+END
+makeRule.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/makeRule.c
+END
+setShiftValues.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/setShiftValues.c
+END
+read_LMF.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/read_LMF.c
+END
+locateSubstructureInStructure.c
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/locateSubstructureInStructure.c
+END
+fillEHforGATE.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillEHforGATE.c
+END
+fillEncoHforGate.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillEncoHforGate.c
+END
+outputAsciiMgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/outputAsciiMgr.c
+END
+usefulOptions.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/usefulOptions.c
+END
+getDtID.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/getDtID.c
+END
+LMFCbuilder.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/LMFCbuilder.c
+END
+calculatesizeevent.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/calculatesizeevent.c
+END
+shiftTime.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/shiftTime.c
+END
+surfaceConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/surfaceConversion.c
+END
+fillInFieldAndData.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillInFieldAndData.c
+END
+newFieldInCchFile.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/newFieldInCchFile.c
+END
+lmfFilesMerger.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/lmfFilesMerger.c
+END
+globalsParameters.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/globalsParameters.c
+END
+DaqTimeCorrector.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/DaqTimeCorrector.c
+END
+generateEH.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generateEH.c
+END
+displayListOfFiles.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/displayListOfFiles.c
+END
+bitUtilities.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/bitUtilities.c
+END
+stringConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/stringConversion.c
+END
+editLMF_cchInfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/editLMF_cchInfo.c
+END
+readTheLMFcchDataBase.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/readTheLMFcchDataBase.c
+END
+testField.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/testField.c
+END
+oneList_flowchart.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/oneList_flowchart.c
+END
+keepOnlyTrue.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/keepOnlyTrue.c
+END
+cutEventsModule.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/cutEventsModule.c
+END
+dumpHead.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpHead.c
+END
+generateCRH.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generateCRH.c
+END
+tripletAnalysis.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/tripletAnalysis.c
+END
+fillInCchDefaultUnitValue.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillInCchDefaultUnitValue.c
+END
+generatecC.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generatecC.c
+END
+LMF_ccsReaderKit.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/LMF_ccsReaderKit.c
+END
+generateEncoH.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generateEncoH.c
+END
+fileNameManager.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fileNameManager.c
+END
+outputRootMgr.cc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/outputRootMgr.cc
+END
+dataConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dataConversion.c
+END
+treatEventRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/treatEventRecord.c
+END
+modifySpeedFormat.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/modifySpeedFormat.c
+END
+buildHead.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/buildHead.c
+END
+dateConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dateConversion.c
+END
+fillEHforAscii.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillEHforAscii.c
+END
+processRecordCarrier.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/processRecordCarrier.c
+END
+rotationSpeedConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/rotationSpeedConversion.c
+END
+calculatesizegatedigi.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/calculatesizegatedigi.c
+END
+testAngleDefaultUnit.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/testAngleDefaultUnit.c
+END
+oneList_BonusKit.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/oneList_BonusKit.c
+END
+buildGDR.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/buildGDR.c
+END
+readHead.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/readHead.c
+END
+makeCRpattern.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/makeCRpattern.c
+END
+speedConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/speedConversion.c
+END
+calculatesizecountrate.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/calculatesizecountrate.c
+END
+hardget.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/hardget.c
+END
+findXYZinLMFfile.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/findXYZinLMFfile.c
+END
+getLMF_cchData.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/getLMF_cchData.c
+END
+setLayersInfo.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/setLayersInfo.c
+END
+oneList_cleanKit.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/oneList_cleanKit.c
+END
+generateGDR.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generateGDR.c
+END
+intro.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/intro.c
+END
+durationConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/durationConversion.c
+END
+geometrySelector.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/geometrySelector.c
+END
+gestionbin.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/gestionbin.c
+END
+modifySurfaceOrVolumeFormat.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/modifySurfaceOrVolumeFormat.c
+END
+fillEncoH.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillEncoH.c
+END
+5rings.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/5rings.c
+END
+juelichDT.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/juelichDT.c
+END
+cutEnergyModule.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/cutEnergyModule.c
+END
+powershort.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/powershort.c
+END
+demakeRule.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/demakeRule.c
+END
+prefixFactors.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/prefixFactors.c
+END
+LMFcchReader.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/LMFcchReader.c
+END
+dlist.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dlist.c
+END
+fillGDHforGATE.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillGDHforGATE.c
+END
+deadTimeMgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/deadTimeMgr.c
+END
+locateID.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/locateID.c
+END
+correctUnknownField.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/correctUnknownField.c
+END
+LMFbuilder.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/LMFbuilder.c
+END
+makeGDpattern.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/makeGDpattern.c
+END
+powerchar.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/powerchar.c
+END
+makeid.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/makeid.c
+END
+coincidenceOutputModule.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/coincidenceOutputModule.c
+END
+oneList_CoincidenceSorter.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/oneList_CoincidenceSorter.c
+END
+readOneCountRateRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/readOneCountRateRecord.c
+END
+buildCRR.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/buildCRR.c
+END
+coinciDeadTimeMgr.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/coinciDeadTimeMgr.c
+END
+fillInStructScannerGeometry.c
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillInStructScannerGeometry.c
+END
+testYourSystemForLMF.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/testYourSystemForLMF.c
+END
+readOneGateDigiRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/readOneGateDigiRecord.c
+END
+delayLineModule.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/delayLineModule.c
+END
+volumeConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/volumeConversion.c
+END
+readOneEventRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/readOneEventRecord.c
+END
+generateER.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generateER.c
+END
+extractEpat.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/extractEpat.c
+END
+setSubstructuresValues.c
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/setSubstructuresValues.c
+END
+numberConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/numberConversion.c
+END
+modifyDateFormat.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/modifyDateFormat.c
+END
+LMFreader.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/LMFreader.c
+END
+generateCRR.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generateCRR.c
+END
+units.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/units.c
+END
+extractCRpat.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/extractCRpat.c
+END
+dumpTheRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpTheRecord.c
+END
+testPitchVersusSize.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/testPitchVersusSize.c
+END
+countRecords.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/countRecords.c
+END
+timeOrDurationConversion.c
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/timeOrDurationConversion.c
+END
+askTheMode.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/askTheMode.c
+END
+unitsFactors.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/unitsFactors.c
+END
+timeValueManager.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/timeValueManager.c
+END
+monteCarloEngine.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/monteCarloEngine.c
+END
+dumpCountRateRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpCountRateRecord.c
+END
+locateRsectorInLaboratory.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/locateRsectorInLaboratory.c
+END
+locateEventInLaboratory.c
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/locateEventInLaboratory.c
+END
+dumpGateDigiRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpGateDigiRecord.c
+END
+findvnn.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/findvnn.c
+END
+getAndSetOF.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/getAndSetOF.c
+END
+demakeid.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/demakeid.c
+END
+dumpCountRateHeader.c
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpCountRateHeader.c
+END
+calculateSSrepeat.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/calculateSSrepeat.c
+END
+setGantryPosition.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/setGantryPosition.c
+END
+sortTime.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/sortTime.c
+END
+modifyDurationFormat.c
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/modifyDurationFormat.c
+END
+dumpEventRecord.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpEventRecord.c
+END
+dumpGateDigiHeader.c
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpGateDigiHeader.c
+END
+generateGDH.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/generateGDH.c
+END
+modifyTimeFormat.c
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/modifyTimeFormat.c
+END
+makeEpattern.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/makeEpattern.c
+END
+dumpEventHeader.c
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/dumpEventHeader.c
+END
+fillEncoHforAscii.c
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/fillEncoHforAscii.c
+END
+buildER.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/buildER.c
+END
+help.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/help.c
+END
+blockSorter.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/blockSorter.c
+END
+extractGDpat.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/lmf_v2.0/src/extractGDpat.c
+END

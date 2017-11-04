@@ -1,0 +1,89 @@
+//
+// $Id: InterfileOutputFileFormat.cxx,v 1.7 2003/05/23 21:41:00 kris Exp $
+//
+/*!
+
+  \file
+  \ingroup InterfileIO
+  \brief Implementation of class InterfileOutputFileFormat
+
+  \author Kris Thielemans
+
+  $Date: 2003/05/23 21:41:00 $
+  $Revision: 1.7 $
+*/
+/*
+    Copyright (C) 2002-2$Date: 2003/05/23 21:41:00 $, IRSL
+    See STIR/LICENSE.txt for details
+*/
+
+#include "stir/IO/InterfileOutputFileFormat.h"
+#include "stir/IO/interfile.h"
+
+START_NAMESPACE_STIR
+
+
+const char * const 
+InterfileOutputFileFormat::registered_name = "Interfile";
+
+InterfileOutputFileFormat::
+InterfileOutputFileFormat(const NumericType& type, 
+                   const ByteOrder& byte_order) 
+{
+  set_type_of_numbers(type);
+  set_byte_order(byte_order);
+}
+
+void 
+InterfileOutputFileFormat::
+initialise_keymap()
+{
+  parser.add_start_key("Interfile Output File Format Parameters");
+  parser.add_stop_key("End Interfile Output File Format Parameters");
+  OutputFileFormat::initialise_keymap();
+}
+
+bool 
+InterfileOutputFileFormat::
+post_processing()
+{
+  if (OutputFileFormat::post_processing())
+    return true;
+  return false;
+}
+
+
+ByteOrder 
+InterfileOutputFileFormat::
+set_byte_order(const ByteOrder& new_byte_order, const bool warn)
+{
+  if (!new_byte_order.is_native_order())
+  {
+    if (warn)
+      warning("InterfileOutputFileFormat: byte_order is currently fixed to the native format\n");
+    file_byte_order = ByteOrder::native;
+  }
+  else
+    file_byte_order = new_byte_order;
+  return file_byte_order;
+}
+
+
+
+Succeeded  
+InterfileOutputFileFormat::
+    actual_write_to_file(string& filename, 
+                  const DiscretisedDensity<3,float>& density) const
+{
+  // TODO modify write_basic_interfile to return filename
+  
+  Succeeded success =
+    write_basic_interfile(filename, density, type_of_numbers);
+  if (success == Succeeded::yes)
+    replace_extension(filename, ".hv");
+  return success;
+};
+
+END_NAMESPACE_STIR
+
+

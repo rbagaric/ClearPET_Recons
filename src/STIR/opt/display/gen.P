@@ -1,0 +1,3 @@
+opt/display/gen.o: display/gen.c display/gen.h
+
+display/gen.h:

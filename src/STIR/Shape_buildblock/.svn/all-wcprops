@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock
+END
+Shape3DWithOrientation.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/Shape3DWithOrientation.cxx
+END
+Ellipsoid.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/Ellipsoid.cxx
+END
+RegisteredObject.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/RegisteredObject.cxx
+END
+Shape3D.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/Shape3D.cxx
+END
+DiscretisedShape3D.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/DiscretisedShape3D.cxx
+END
+Shape_buildblock_registries.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/Shape_buildblock_registries.cxx
+END
+EllipsoidalCylinder.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/EllipsoidalCylinder.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/Shape_buildblock/lib.mk
+END

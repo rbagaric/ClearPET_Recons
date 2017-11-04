@@ -1,0 +1,147 @@
+//
+// $Id: ProjDataInMemory.cxx,v 1.5 2003/08/28 21:27:05 kris Exp $
+//
+/*!
+
+  \file
+  \ingroup projdata
+  \brief Implementations for non-inline functions of class ProjDataInMemory
+
+  \author Kris Thielemans
+
+  $Date: 2003/08/28 21:27:05 $
+  $Revision: 1.5 $
+*/
+/*
+    Copyright (C) 2002- $Date: 2003/08/28 21:27:05 $, IRSL
+    See STIR/LICENSE.txt for details
+*/
+
+
+#include "stir/ProjDataInMemory.h"
+#include "stir/shared_ptr.h"
+#include "stir/Succeeded.h"
+#include "stir/SegmentByView.h"
+#include "stir/ProjDataInterfile.h"
+#include <fstream>
+
+
+#ifdef STIR_USE_OLD_STRSTREAM
+#include <strstream>
+#else
+#include <sstream>
+#endif
+
+#ifndef STIR_NO_NAMESPACES
+using std::fstream;
+using std::iostream;
+using std::ios;
+using std::strstream;
+#endif
+
+START_NAMESPACE_STIR
+
+ProjDataInMemory::
+~ProjDataInMemory()
+{}
+
+ProjDataInMemory::
+ProjDataInMemory(shared_ptr<ProjDataInfo> const& proj_data_info_ptr, const bool initialise_with_0)
+  :
+  ProjDataFromStream(proj_data_info_ptr, 0) // trick: first initialise sino_stream_ptr to 0
+{
+  
+#ifdef STIR_USE_OLD_STRSTREAM
+  const size_t buffer_size = get_size_of_buffer();
+  //buffer = auto_ptr<char>(new char[buffer_size]);
+  buffer = new char[buffer_size];
+  sino_stream = new strstream(buffer.get(), buffer_size, ios::in | ios::out | ios::binary);
+#else
+  // it would be advantageous to preallocate memory as well
+  // the only way to do this is by passing a string of the appropriate size
+  // However, if basic_string doesn't do reference counting, we would have
+  // temporarily 2 strings of a (potentially large) size in memory.
+  // todo?
+  sino_stream = new std::stringstream(ios::in | ios::out | ios::binary);
+#endif
+
+  if (!*sino_stream)
+    error("ProjDataInMemory error initialising stream\n");
+
+  if (initialise_with_0)
+  {
+    for (int segment_num = proj_data_info_ptr->get_min_segment_num();
+         segment_num <= proj_data_info_ptr->get_max_segment_num();
+         ++segment_num)
+      set_segment(proj_data_info_ptr->get_empty_segment_by_view(segment_num));
+  }
+}
+
+ProjDataInMemory::
+ProjDataInMemory(const ProjData& proj_data)
+: ProjDataFromStream(proj_data.get_proj_data_info_ptr()->clone(), 0)
+{
+#ifdef STIR_USE_OLD_STRSTREAM
+  const size_t buffer_size = get_size_of_buffer();
+  //buffer = auto_ptr<char>(new char[buffer_size]);
+  buffer = new char[buffer_size];
+  sino_stream = new strstream(buffer.get(), buffer_size, ios::in | ios::out | ios::binary);
+#else
+  // it would be advantageous to preallocate memory as well
+  // the only way to do this is by passing a string of the appropriate size
+  // However, if basic_string doesn't do reference counting, we would have
+  // temporarily 2 strings of a (potentially large) size in memory.
+  // todo?
+  sino_stream = new std::stringstream(ios::in | ios::out | ios::binary);
+#endif
+
+  if (!*sino_stream)
+    error("ProjDataInMemory error initialising stream\n");
+
+  // copy data
+  for (int segment_num = proj_data_info_ptr->get_min_segment_num();
+       segment_num <= proj_data_info_ptr->get_max_segment_num();
+       ++segment_num)
+    set_segment(proj_data.get_segment_by_view(segment_num));
+}
+
+size_t
+ProjDataInMemory::
+get_size_of_buffer() const
+{
+  size_t num_sinograms = 0;
+  for (int segment_num = proj_data_info_ptr->get_min_segment_num();
+       segment_num <= proj_data_info_ptr->get_max_segment_num();
+       ++segment_num)
+    num_sinograms += proj_data_info_ptr->get_num_axial_poss(segment_num);
+  return 
+    num_sinograms * 
+    proj_data_info_ptr->get_num_views() *
+    proj_data_info_ptr->get_num_tangential_poss() *
+    sizeof(float);
+}
+
+Succeeded
+ProjDataInMemory::
+write_to_file(const string& output_filename) const
+{
+
+  ProjDataInterfile out_projdata(proj_data_info_ptr, output_filename, ios::out); 
+  
+  Succeeded success=Succeeded::yes;
+  for (int segment_num = proj_data_info_ptr->get_min_segment_num();
+       segment_num <= proj_data_info_ptr->get_max_segment_num();
+       ++segment_num)
+  {
+    Succeeded success_this_segment =
+      out_projdata.set_segment(get_segment_by_view(segment_num));
+    if (success==Succeeded::yes)
+      success = success_this_segment;
+  }
+  return success;
+    
+}
+
+
+END_NAMESPACE_STIR
+

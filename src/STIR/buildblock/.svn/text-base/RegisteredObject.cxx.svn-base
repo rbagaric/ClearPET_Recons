@@ -1,0 +1,46 @@
+//
+// $Id: RegisteredObject.cxx,v 1.4 2004/09/14 18:18:10 kris Exp $
+//
+/*!
+
+  \file
+
+  \brief Instantiations of RegisteredObject
+
+  Currently only necessary for VC 6.0
+
+  \author Kris Thielemans
+
+  $Date: 2004/09/14 18:18:10 $
+  $Revision: 1.4 $
+*/
+/*
+    Copyright (C) 2000- $Date: 2004/09/14 18:18:10 $, Hammersmith  Imanet Ltd
+    See STIR/LICENSE.txt for details
+*/
+
+// note: include has to be before #ifdef as it's in this file that
+// __STIR_REGISTRY_NOT_INLINE is defined
+#include "stir/RegisteredObject.h"
+
+#ifdef __STIR_REGISTRY_NOT_INLINE
+#pragma message("instantiating RegisteredObject<ImageProcessor<3,float> >")
+#include "stir/ImageProcessor.h"
+// add here all roots of hierarchies based on RegisteredObject
+
+START_NAMESPACE_STIR
+
+template <typename Root>
+RegisteredObject<Root>::RegistryType& 
+RegisteredObject<Root>::registry ()
+{
+  static RegistryType the_registry("None", 0);
+  return the_registry;
+}
+
+template RegisteredObject<ImageProcessor<3,float> >;
+// add here all roots of hierarchies based on RegisteredObject
+
+END_NAMESPACE_STIR
+
+#endif

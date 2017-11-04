@@ -1,0 +1,3 @@
+opt/buildblock/lmmin.o: buildblock/lmmin.cxx include/stir/lmmin.h
+
+include/stir/lmmin.h:

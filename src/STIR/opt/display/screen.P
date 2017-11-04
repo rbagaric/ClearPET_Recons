@@ -1,0 +1,5 @@
+opt/display/screen.o: display/screen.c display/gen.h display/screen.h
+
+display/gen.h:
+
+display/screen.h:

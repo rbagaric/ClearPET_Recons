@@ -1,0 +1,25 @@
+#
+# Configuration file for ClearPET reconstruction interface
+# 
+
+<Directory "/srv/www/htdocs">
+	AllowOverride All
+	Options +ExecCGI -Includes
+	AddHandler cgi-script pl
+
+	Order deny,allow
+	Allow from all
+#TODO: in order to get a better access protection, remove the
+# "Allow from all" line and replace it with a line like:
+#   Allow from network.com			# allow access only from local subnet
+#   Allow from host1,host2,host3	# allow access only from specific hosts
+# Of course, you need to adapt the values for your site.
+# And don't forget to reload Apache after saving changes, with "rcapache2 relaod".
+
+	AuthType Basic
+	AuthUserFile /home/clearpet/http_passwd
+	AuthName "Please enter your password for ClearPET Reconstruction"
+	require valid-user
+</Directory>
+
+

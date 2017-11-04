@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/data_buildblock
+END
+SinglesRates.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/data_buildblock/SinglesRates.cxx
+END
+data_buildblock_registries.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/data_buildblock/data_buildblock_registries.cxx
+END
+SinglesRatesFromECAT7.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/data_buildblock/SinglesRatesFromECAT7.cxx
+END
+lib.mk
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/data_buildblock/lib.mk
+END
+SinglesRatesFromSglFile.cxx
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/ClearPET_Recons/!svn/ver/1/trunk/src/STIR/data_buildblock/SinglesRatesFromSglFile.cxx
+END
